@@ -1,0 +1,4122 @@
+[
+  {
+    "id": "banff",
+    "name": "Banff National Park",
+    "province": "Alberta",
+    "type": "national",
+    "lat": 51.1784,
+    "lng": -115.5708,
+    "description": "Canada's first national park and the crown jewel of the Rockies. Turquoise lakes, towering peaks, and abundant wildlife draw millions of visitors each year. The town of Banff offers a base camp with restaurants and gear shops, while the backcountry delivers world-class hiking and scrambling.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Banff",
+    "campgrounds": [
+      {
+        "name": "Tunnel Mountain Village",
+        "sites": 618,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "dump_station"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      },
+      {
+        "name": "Two Jack Lakeside",
+        "sites": 64,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Johnston Canyon",
+        "sites": 132,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "trails",
+          "electricity"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cycling",
+      "rock_climbing",
+      "photography",
+      "stargazing"
+    ],
+    "imageUrl": "/parks/banff.webp"
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper National Park",
+    "province": "Alberta",
+    "type": "national",
+    "lat": 52.8734,
+    "lng": -117.9543,
+    "description": "The largest national park in the Canadian Rockies, Jasper is a Dark Sky Preserve and a paradise for wildlife spotting. From the Columbia Icefield to Maligne Lake, the landscapes here are staggering in scale. Quieter and more rugged than Banff, Jasper rewards those who venture further.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Jasper",
+    "campgrounds": [
+      {
+        "name": "Whistlers",
+        "sites": 781,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "dump_station",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      },
+      {
+        "name": "Wapiti",
+        "sites": 362,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "cycling",
+      "stargazing",
+      "photography"
+    ],
+    "imageUrl": "/parks/jasper.webp"
+  },
+  {
+    "id": "pacific-rim",
+    "name": "Pacific Rim National Park Reserve",
+    "province": "British Columbia",
+    "type": "national",
+    "lat": 48.992,
+    "lng": -125.7625,
+    "description": "Where the old-growth rainforest meets the wild Pacific Ocean. Famous for the West Coast Trail — one of Canada's most legendary backcountry hikes — and Long Beach, a vast stretch of sand perfect for storm watching and surfing. The raw beauty of this coast is unforgettable.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/PacificRim",
+    "campgrounds": [
+      {
+        "name": "Green Point",
+        "sites": 94,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "surfing",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/pacific-rim.webp"
+  },
+  {
+    "id": "yoho",
+    "name": "Yoho National Park",
+    "province": "British Columbia",
+    "type": "national",
+    "lat": 51.3971,
+    "lng": -116.4867,
+    "description": "Yoho, a Cree word meaning 'awe', perfectly describes this park's thundering waterfalls, soaring peaks, and pristine alpine lakes. Home to Takakkaw Falls and the stunning Emerald Lake, Yoho is the quieter neighbour of Banff and Kootenay, often delivering the best hikes with fewer crowds.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Yoho",
+    "campgrounds": [
+      {
+        "name": "Kicking Horse",
+        "sites": 86,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "fishing",
+      "wildlife_viewing",
+      "photography",
+      "rock_climbing"
+    ],
+    "imageUrl": "/parks/yoho.webp"
+  },
+  {
+    "id": "kootenay",
+    "name": "Kootenay National Park",
+    "province": "British Columbia",
+    "type": "national",
+    "lat": 50.8838,
+    "lng": -116.0549,
+    "description": "From cactus flats to glacial peaks, Kootenay spans an extraordinary range of ecosystems. The Radium Hot Springs offer a natural soak after a day on the trail, and the Rockwall Trail is one of the finest multi-day hikes in the Rockies.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Kootenay",
+    "campgrounds": [
+      {
+        "name": "Redstreak",
+        "sites": 241,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/kootenay.webp"
+  },
+  {
+    "id": "glacier-bc",
+    "name": "Glacier National Park",
+    "province": "British Columbia",
+    "type": "national",
+    "lat": 51.2965,
+    "lng": -117.5189,
+    "description": "A rugged mountain wilderness defined by ancient glaciers, dense cedar forests, and some of the heaviest snowfall in Canada. Rogers Pass, at the park's heart, is steeped in railway history. The hiking here is steep and rewarding, with trails climbing through alpine meadows carpeted in wildflowers.",
+    "season": {
+      "open": "2026-06-15",
+      "close": "2026-09-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Glacier",
+    "campgrounds": [
+      {
+        "name": "Illecillewaet",
+        "sites": 60,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "wildlife_viewing",
+      "photography",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/glacier-bc.webp"
+  },
+  {
+    "id": "waterton-lakes",
+    "name": "Waterton Lakes National Park",
+    "province": "Alberta",
+    "type": "national",
+    "lat": 49.0833,
+    "lng": -113.9167,
+    "description": "Where the prairies meet the mountains in dramatic fashion. Waterton is compact and intimate, with the iconic Prince of Wales Hotel perched above crystal-clear lakes. Together with Montana's Glacier National Park, it forms the world's first International Peace Park. The Crypt Lake hike is legendary.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Waterton",
+    "campgrounds": [
+      {
+        "name": "Townsite",
+        "sites": 238,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/waterton-lakes.webp"
+  },
+  {
+    "id": "gros-morne",
+    "name": "Gros Morne National Park",
+    "province": "Newfoundland and Labrador",
+    "type": "national",
+    "lat": 49.6571,
+    "lng": -57.53,
+    "description": "A UNESCO World Heritage Site that feels like another planet. The Tablelands expose the Earth's mantle in a stark orange moonscape, while Western Brook Pond — a landlocked fjord — towers with 600-metre cliffs. Gros Morne is geology and grandeur at its finest, tucked along Newfoundland's wild western coast.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/GrosMorne",
+    "campgrounds": [
+      {
+        "name": "Berry Hill",
+        "sites": 146,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      },
+      {
+        "name": "Green Point",
+        "sites": 31,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/gros-morne.webp"
+  },
+  {
+    "id": "cape-breton-highlands",
+    "name": "Cape Breton Highlands National Park",
+    "province": "Nova Scotia",
+    "type": "national",
+    "lat": 46.7354,
+    "lng": -60.8548,
+    "description": "The Cabot Trail winds through this park, delivering some of the most spectacular coastal driving in the world. Rugged highlands plunge into the Atlantic, with moose often spotted grazing by the roadside. The Skyline Trail at sunset is a quintessential Maritime experience.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/CapeBreton",
+    "campgrounds": [
+      {
+        "name": "Chéticamp",
+        "sites": 112,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails",
+          "playground"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      },
+      {
+        "name": "Broad Cove",
+        "sites": 245,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/cape-breton-highlands.webp"
+  },
+  {
+    "id": "fundy",
+    "name": "Fundy National Park",
+    "province": "New Brunswick",
+    "type": "national",
+    "lat": 45.5868,
+    "lng": -65.0372,
+    "description": "Home to the highest tides on Earth, Fundy's Bay creates a landscape that transforms every six hours. At low tide, walk the ocean floor among sculpted sea stacks and tidal pools. Inland, the Acadian forest shelters waterfalls, covered bridges, and over 100 km of hiking trails.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Fundy",
+    "campgrounds": [
+      {
+        "name": "Headquarters",
+        "sites": 169,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground",
+          "dump_station"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      },
+      {
+        "name": "Point Wolfe",
+        "sites": 135,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/fundy.webp"
+  },
+  {
+    "id": "pei-national",
+    "name": "Prince Edward Island National Park",
+    "province": "Prince Edward Island",
+    "type": "national",
+    "lat": 46.4166,
+    "lng": -63.0747,
+    "description": "Red sandstone cliffs, endless dune-backed beaches, and warm ocean swimming — PEI National Park is the Maritimes at its most relaxed. The park protects some of the island's finest coastline, with cycling trails, birdwatching, and beach bonfires rounding out the experience.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/PEI",
+    "campgrounds": [
+      {
+        "name": "Cavendish",
+        "sites": 228,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      },
+      {
+        "name": "Stanhope",
+        "sites": 99,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/pei-national.webp"
+  },
+  {
+    "id": "la-mauricie",
+    "name": "La Mauricie National Park",
+    "province": "Quebec",
+    "type": "national",
+    "lat": 46.8095,
+    "lng": -72.9843,
+    "description": "A canoeist's paradise in the Laurentian highlands. Over 150 lakes dot this rolling landscape of maple and birch forest, linked by portage routes that have been paddled for centuries. Autumn brings a spectacular show of colour, and the park's accessibility from Montreal and Quebec City makes it an easy escape.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/LaMauricie",
+    "campgrounds": [
+      {
+        "name": "Wapizagonke",
+        "sites": 200,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "boat_launch",
+          "trails",
+          "swimming"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      },
+      {
+        "name": "Mistagance",
+        "sites": 85,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/la-mauricie.webp"
+  },
+  {
+    "id": "forillon",
+    "name": "Forillon National Park",
+    "province": "Quebec",
+    "type": "national",
+    "lat": 48.8361,
+    "lng": -64.2556,
+    "description": "At the tip of the Gaspé Peninsula, where the Appalachian Mountains plunge into the Gulf of St. Lawrence. Forillon packs an incredible diversity into a small area — cliffs teeming with seabirds, whale-watching from shore, pebble beaches, and deep boreal forest. It's one of Quebec's best-kept secrets.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Forillon",
+    "campgrounds": [
+      {
+        "name": "Des-Rosiers",
+        "sites": 146,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "scuba_diving",
+      "photography"
+    ],
+    "imageUrl": "/parks/forillon.webp"
+  },
+  {
+    "id": "bruce-peninsula",
+    "name": "Bruce Peninsula National Park",
+    "province": "Ontario",
+    "type": "national",
+    "lat": 45.2237,
+    "lng": -81.5225,
+    "description": "The turquoise waters of Georgian Bay lap against ancient limestone cliffs and sea caves, creating landscapes that look more Caribbean than Canadian. The Grotto — a stunning sea cave with impossibly blue water — is the star attraction. The Bruce Trail, Canada's oldest long-distance trail, passes through the park.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/BrucePeninsula",
+    "campgrounds": [
+      {
+        "name": "Cyprus Lake",
+        "sites": 232,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "scuba_diving",
+      "kayaking",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/bruce-peninsula.webp"
+  },
+  {
+    "id": "thousand-islands",
+    "name": "Thousand Islands National Park",
+    "province": "Ontario",
+    "type": "national",
+    "lat": 44.3833,
+    "lng": -75.8833,
+    "description": "A granite archipelago where the Canadian Shield meets the St. Lawrence River. Over twenty islands are accessible by boat, offering secluded camping on rocky shorelines surrounded by old-growth forest. It's the smallest national park in the system but one of the most charming.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/ThousandIslands",
+    "campgrounds": [
+      {
+        "name": "Mallorytown Landing",
+        "sites": 64,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/thousand-islands.webp"
+  },
+  {
+    "id": "point-pelee",
+    "name": "Point Pelee National Park",
+    "province": "Ontario",
+    "type": "national",
+    "lat": 41.9628,
+    "lng": -82.5185,
+    "description": "The southernmost point of mainland Canada, jutting into Lake Erie on one of the continent's great migration flyways. Spring and fall bring extraordinary birding, with warblers and raptors passing through in staggering numbers. The Carolinian forest here is unique in Canada — lush, diverse, and almost subtropical.",
+    "season": {
+      "open": "2026-04-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/PointPelee",
+    "campgrounds": [],
+    "activities": [
+      "hiking",
+      "swimming",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "cycling",
+      "photography"
+    ],
+    "imageUrl": "/parks/point-pelee.webp"
+  },
+  {
+    "id": "riding-mountain",
+    "name": "Riding Mountain National Park",
+    "province": "Manitoba",
+    "type": "national",
+    "lat": 50.8604,
+    "lng": -99.9642,
+    "description": "Rising like an island from the Manitoba prairie, Riding Mountain's escarpment marks the boundary between grasslands and boreal forest. Clear Lake anchors the charming townsite of Wasagaming, while the backcountry shelters a healthy population of black bears, wolves, and a captive bison herd.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/RidingMountain",
+    "campgrounds": [
+      {
+        "name": "Wasagaming",
+        "sites": 450,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground",
+          "dump_station",
+          "swimming"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Moon Lake",
+        "sites": 43,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cycling",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/riding-mountain.webp"
+  },
+  {
+    "id": "prince-albert",
+    "name": "Prince Albert National Park",
+    "province": "Saskatchewan",
+    "type": "national",
+    "lat": 53.968,
+    "lng": -106.1937,
+    "description": "Saskatchewan's wilderness jewel, where the prairies give way to boreal forest and a chain of pristine lakes. Grey Owl's cabin on Ajawaan Lake is a pilgrimage for conservation-minded paddlers. The park protects one of Canada's largest free-ranging herds of plains bison and offers exceptional canoeing.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/PrinceAlbert",
+    "campgrounds": [
+      {
+        "name": "Beaver Glen",
+        "sites": 163,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/prince-albert.webp"
+  },
+  {
+    "id": "kejimkujik",
+    "name": "Kejimkujik National Park",
+    "province": "Nova Scotia",
+    "type": "national",
+    "lat": 44.3833,
+    "lng": -65.2167,
+    "description": "Nova Scotia's inland wilderness, a Dark Sky Preserve woven with old Mi'kmaw canoe routes. Ancient petroglyphs dot the lakeshores, and the forest canopy glows in autumn. Keji (as locals call it) is one of the best stargazing spots in eastern Canada and a superb paddling destination.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Kejimkujik",
+    "campgrounds": [
+      {
+        "name": "Jeremy's Bay",
+        "sites": 329,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground",
+          "swimming",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "swimming",
+      "fishing",
+      "wildlife_viewing",
+      "stargazing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/kejimkujik.webp"
+  },
+  {
+    "id": "algonquin",
+    "name": "Algonquin Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 45.5631,
+    "lng": -78.2632,
+    "description": "Ontario's oldest and most iconic park, a vast landscape of maple hills, spruce bogs, and over 2,400 lakes connected by legendary canoe routes. The Highway 60 corridor offers accessible car camping and trailheads, while the interior delivers multi-day paddling adventures. Moose sightings and loon calls are practically guaranteed.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Algonquin",
+    "campgrounds": [
+      {
+        "name": "Mew Lake",
+        "sites": 131,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "trails",
+          "electricity"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      },
+      {
+        "name": "Lake of Two Rivers",
+        "sites": 241,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "trails",
+          "electricity"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Canisbay Lake",
+        "sites": 242,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "swimming",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "photography",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/algonquin.webp"
+  },
+  {
+    "id": "killarney",
+    "name": "Killarney Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 46.0072,
+    "lng": -81.3978,
+    "description": "The white quartzite ridges of the La Cloche Mountains frame sapphire lakes in what many consider Ontario's most beautiful park. The Group of Seven painted these landscapes, and it's easy to see why. The La Cloche Silhouette Trail is a bucket-list backpacking loop, and George Lake is perfect for kayaking.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Killarney",
+    "campgrounds": [
+      {
+        "name": "George Lake",
+        "sites": 126,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/killarney.webp"
+  },
+  {
+    "id": "bon-echo",
+    "name": "Bon Echo Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 44.8936,
+    "lng": -77.1897,
+    "description": "The massive Mazinaw Rock cliff face rises 100 metres straight from the water, adorned with over 260 Indigenous pictographs — one of the largest collections in Canada. The park straddles two distinct lakes and offers excellent swimming, paddling, and cliff exploration. A hidden gem in eastern Ontario.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/BonEcho",
+    "campgrounds": [
+      {
+        "name": "Mazinaw Lake",
+        "sites": 478,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "swimming",
+      "hiking",
+      "fishing",
+      "rock_climbing"
+    ],
+    "imageUrl": "/parks/bon-echo.webp"
+  },
+  {
+    "id": "sandbanks",
+    "name": "Sandbanks Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 43.9077,
+    "lng": -77.253,
+    "description": "Home to the world's largest baymouth barrier dune formation, Sandbanks boasts three stunning beaches along Lake Ontario in Prince Edward County. The warm, shallow water is perfect for families, and the surrounding wine country adds a gourmet camping twist. Reservations here sell out in minutes.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Sandbanks",
+    "campgrounds": [
+      {
+        "name": "Outlet River",
+        "sites": 232,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "playground"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      },
+      {
+        "name": "Dunes",
+        "sites": 131,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming"
+        ],
+        "terrain": "dune",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "cycling",
+      "kayaking",
+      "fishing"
+    ],
+    "imageUrl": "/parks/sandbanks.webp"
+  },
+  {
+    "id": "gatineau",
+    "name": "Gatineau Park",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 45.5052,
+    "lng": -75.8188,
+    "description": "A vast conservation park minutes from downtown Ottawa, managed by the National Capital Commission. The Gatineau Hills are ablaze with colour in autumn and laced with cross-country ski trails in winter. Pink Lake's meromictic waters, Champlain Lookout, and the Mackenzie King Estate are signature attractions.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://ncc-ccn.gc.ca/places/gatineau-park-camping",
+    "campgrounds": [
+      {
+        "name": "Lac Philippe",
+        "sites": 251,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      },
+      {
+        "name": "Lac Taylor",
+        "sites": 33,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "cycling",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/gatineau.webp"
+  },
+  {
+    "id": "mont-tremblant",
+    "name": "Mont-Tremblant National Park",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 46.366,
+    "lng": -74.6,
+    "description": "Quebec's oldest national park (SEPAQ), sprawling across the Laurentian highlands north of Montreal. Six major rivers, countless lakes, and dense boreal forest make it a paddler's and hiker's playground. The Diable sector's cascading falls and autumn colours are spectacular, and the park is a hotspot for wolf-howling events.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/mot/",
+    "campgrounds": [
+      {
+        "name": "Lac Chat",
+        "sites": 215,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/mont-tremblant.webp"
+  },
+  {
+    "id": "jacques-cartier",
+    "name": "Jacques-Cartier National Park",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 47.2167,
+    "lng": -71.3833,
+    "description": "A dramatic glacial valley carved into the Laurentian Plateau, just 30 minutes from Quebec City. The Jacques-Cartier River runs through a deep valley flanked by 550-metre-high walls — ideal for canoeing, kayaking, and riverside camping. The autumn colours rival New England at a fraction of the crowds.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/jac/",
+    "campgrounds": [
+      {
+        "name": "Les Alluvions",
+        "sites": 60,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/jacques-cartier.webp"
+  },
+  {
+    "id": "garibaldi",
+    "name": "Garibaldi Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.9286,
+    "lng": -123.0036,
+    "description": "A volcanic alpine wonderland between Vancouver and Whistler. Garibaldi Lake's impossibly turquoise water, Black Tusk's jagged spire, and Panorama Ridge's sweeping views make this one of BC's most photographed parks. All access is by trail — there are no drive-in campgrounds, which keeps it wild and uncrowded.",
+    "season": {
+      "open": "2026-06-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://bcparks.ca/garibaldi-park/",
+    "campgrounds": [
+      {
+        "name": "Garibaldi Lake",
+        "sites": 50,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets",
+          "bear_locker"
+        ],
+        "terrain": "alpine",
+        "bearCountry": true
+      },
+      {
+        "name": "Elfin Lakes",
+        "sites": 30,
+        "amenities": [
+          "vault_toilets",
+          "bear_locker"
+        ],
+        "terrain": "alpine",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "fishing",
+      "photography",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/garibaldi.webp"
+  },
+  {
+    "id": "wells-gray",
+    "name": "Wells Gray Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 52.1333,
+    "lng": -120.05,
+    "description": "BC's 'waterfall park' is home to Helmcken Falls, a 141-metre cascade that's among the most impressive in Canada. Vast and relatively uncrowded, Wells Gray offers volcanic landscapes, old-growth cedar forests, and excellent wildlife viewing. The Clearwater and Murtle River corridors are outstanding for multi-day canoe trips.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/wells-gray-park/",
+    "campgrounds": [
+      {
+        "name": "Clearwater Lake",
+        "sites": 73,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Falls Creek",
+        "sites": 41,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/wells-gray.webp"
+  },
+  {
+    "id": "manning",
+    "name": "Manning Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.065,
+    "lng": -120.7811,
+    "description": "Straddling the Cascade Mountains east of Vancouver, Manning is a four-season park with accessible alpine meadows, excellent cross-country skiing, and the western terminus of the Trans-Canada Trail. The subalpine wildflower meadows in summer are extraordinary, and Lightning Lake is a family-friendly paddling and swimming destination.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://bcparks.ca/manning-park/",
+    "campgrounds": [
+      {
+        "name": "Lightning Lake",
+        "sites": 143,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "boat_launch",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Hampton",
+        "sites": 99,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "swimming",
+      "fishing",
+      "cycling",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/manning.webp"
+  },
+  {
+    "id": "whiteshell",
+    "name": "Whiteshell Provincial Park",
+    "province": "Manitoba",
+    "type": "provincial",
+    "lat": 50.1667,
+    "lng": -95.3,
+    "description": "Manitoba's flagship provincial park on the Canadian Shield, a landscape of granite outcrops, boreal forest, and hundreds of lakes. The Winnipeg River system provides world-class fishing, and ancient Bannock Point Petroforms — boulder arrangements created by Indigenous peoples — are among the oldest human-made structures on the prairies.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.gov.mb.ca/sd/parks/whiteshell.html",
+    "campgrounds": [
+      {
+        "name": "Big Whiteshell Lake",
+        "sites": 76,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "swimming"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "West Hawk Lake",
+        "sites": 108,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/whiteshell.webp"
+  },
+  {
+    "id": "cypress-hills",
+    "name": "Cypress Hills Interprovincial Park",
+    "province": "Saskatchewan",
+    "type": "provincial",
+    "lat": 49.634,
+    "lng": -109.525,
+    "description": "Rising from the prairie like a forested plateau, Cypress Hills is Canada's first interprovincial park and one of the country's best Dark Sky Preserves. The hills were never glaciated — a biological island of lodgepole pine and elk surrounded by grassland. The stargazing here is world-class.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.tourismsaskatchewan.com/listings/cypress-hills-interprovincial-park",
+    "campgrounds": [
+      {
+        "name": "Centre Block",
+        "sites": 186,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "stargazing",
+      "wildlife_viewing",
+      "fishing",
+      "swimming",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/cypress-hills.webp"
+  },
+  {
+    "id": "dinosaur",
+    "name": "Dinosaur Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 50.7554,
+    "lng": -111.5198,
+    "description": "A UNESCO World Heritage Site in the Alberta badlands, where over 40 dinosaur species have been discovered. The eroded hoodoos and coulees create an otherworldly landscape. Guided hikes access restricted fossil-rich areas, and the night sky above the badlands is stunning. Unlike anywhere else in Canada.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/dinosaur/",
+    "campgrounds": [
+      {
+        "name": "Dinosaur Campground",
+        "sites": 126,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "badlands",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "photography",
+      "stargazing",
+      "wildlife_viewing",
+      "canoeing"
+    ],
+    "imageUrl": "/parks/dinosaur.webp"
+  },
+  {
+    "id": "peter-lougheed",
+    "name": "Peter Lougheed Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 50.6167,
+    "lng": -115.15,
+    "description": "Alberta's first provincial park, nestled in Kananaskis Country just south of Banff. The rugged beauty rivals its national park neighbours but with a fraction of the crowds. Highwood Pass — the highest paved road in Canada — runs through the park, and the hiking ranges from gentle lakeside strolls to demanding scrambles.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/peter-lougheed/",
+    "campgrounds": [
+      {
+        "name": "Boulton Creek",
+        "sites": 118,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      },
+      {
+        "name": "Interlakes",
+        "sites": 48,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "canoeing",
+      "kayaking",
+      "cycling",
+      "wildlife_viewing",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/peter-lougheed.webp"
+  },
+  {
+    "id": "strathcona",
+    "name": "Strathcona Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.65,
+    "lng": -125.75,
+    "description": "BC's oldest provincial park, encompassing the rugged heart of Vancouver Island. Della Falls — at 440 metres, one of Canada's tallest waterfalls — is the crown jewel. Buttle Lake provides drive-in lakeside camping, while the backcountry offers serious mountaineering and alpine exploring in a remarkably wild setting.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/strathcona-park/",
+    "campgrounds": [
+      {
+        "name": "Buttle Lake",
+        "sites": 85,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "trails",
+          "swimming"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "rock_climbing",
+      "photography"
+    ],
+    "imageUrl": "/parks/strathcona.webp"
+  },
+  {
+    "id": "nahanni",
+    "name": "Nahanni National Park Reserve",
+    "province": "Northwest Territories",
+    "type": "national",
+    "lat": 61.0833,
+    "lng": -124.5833,
+    "description": "One of the world's great wilderness destinations, accessible only by floatplane or an epic river journey. The South Nahanni River carves through four immense canyons, and Virginia Falls — twice the height of Niagara — is breathtaking. This is remote, serious wilderness that rewards experienced adventurers with unmatched solitude.",
+    "season": {
+      "open": "2026-06-15",
+      "close": "2026-09-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Nahanni",
+    "campgrounds": [
+      {
+        "name": "Virginia Falls",
+        "sites": 15,
+        "amenities": [
+          "vault_toilets",
+          "bear_locker"
+        ],
+        "terrain": "riverside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/nahanni.webp"
+  },
+  {
+    "id": "kluane",
+    "name": "Kluane National Park and Reserve",
+    "province": "Yukon",
+    "type": "national",
+    "lat": 60.75,
+    "lng": -138.5,
+    "description": "Home to Canada's highest peak — Mount Logan at 5,959 metres — and the country's largest ice fields outside the Arctic. The scale here is almost incomprehensible. Grizzlies roam the valleys, Dall sheep dot the alpine, and the Northern Lights dance overhead in late summer. True expedition-grade wilderness.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/Kluane",
+    "campgrounds": [
+      {
+        "name": "Kathleen Lake",
+        "sites": 39,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "bear_locker",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "kayaking",
+      "wildlife_viewing",
+      "photography",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/kluane.webp"
+  },
+  {
+    "id": "mount-robson",
+    "name": "Mount Robson Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 53.1127,
+    "lng": -119.233,
+    "description": "Home to the highest peak in the Canadian Rockies — Mount Robson at 3,954 metres — this park is a mecca for serious hikers. The Berg Lake Trail is one of the most spectacular multi-day hikes in the country, passing through the Valley of a Thousand Falls to turquoise Berg Lake, with icebergs calving from the glacier above.",
+    "season": {
+      "open": "2026-06-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://bcparks.ca/mount-robson-park/",
+    "campgrounds": [
+      {
+        "name": "Robson Meadows",
+        "sites": 125,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails",
+          "dump_station"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      },
+      {
+        "name": "Robson River",
+        "sites": 19,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "kayaking",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/mount-robson.webp"
+  },
+  {
+    "id": "golden-ears",
+    "name": "Golden Ears Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.35,
+    "lng": -122.4667,
+    "description": "One of the largest parks in the Lower Mainland, Golden Ears is the go-to escape for Vancouver-area campers. Alouette Lake offers warm swimming and paddling, while the trail to the Golden Ears summit delivers a challenging scramble with panoramic views. Close enough for a weeknight visit, wild enough to feel like an adventure.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://bcparks.ca/golden-ears-park/",
+    "campgrounds": [
+      {
+        "name": "Alouette",
+        "sites": 205,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Gold Creek",
+        "sites": 138,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "cycling",
+      "photography"
+    ],
+    "imageUrl": "/parks/golden-ears.webp"
+  },
+  {
+    "id": "bowron-lake",
+    "name": "Bowron Lake Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 52.9833,
+    "lng": -121.2333,
+    "description": "Famous for its 116-kilometre canoe circuit — a chain of lakes, rivers, and portages forming a complete loop through the Cariboo Mountains. It's one of the world's premier wilderness paddling experiences, taking 6 to 10 days to complete. Eagles, moose, and bears are regular companions along the route.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://bcparks.ca/bowron-lake-park/",
+    "campgrounds": [
+      {
+        "name": "Bowron Lake",
+        "sites": 25,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/bowron-lake.webp"
+  },
+  {
+    "id": "joffre-lakes",
+    "name": "Joffre Lakes Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 50.3549,
+    "lng": -122.4897,
+    "description": "Three glacially fed lakes, each a more intense shade of turquoise than the last, stacked up a forested valley below Matier Glacier. The trail is short (5 km one way) but the payoff is extraordinary — Upper Joffre Lake, with its floating icebergs and glacier backdrop, is one of the most photographed spots in BC. Day-use reservations are required in peak season.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/joffre-lakes-park/",
+    "campgrounds": [
+      {
+        "name": "Upper Joffre Lake",
+        "sites": 26,
+        "amenities": [
+          "vault_toilets",
+          "bear_locker"
+        ],
+        "terrain": "alpine",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "photography",
+      "swimming"
+    ],
+    "imageUrl": "/parks/joffre-lakes.webp"
+  },
+  {
+    "id": "juan-de-fuca",
+    "name": "Juan de Fuca Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 48.4286,
+    "lng": -124.0772,
+    "description": "The Juan de Fuca Marine Trail is the lesser-known sibling of the West Coast Trail, running 47 km along Vancouver Island's wild southwest coast. It's more accessible (multiple trailheads, no permits needed for day hiking) but just as rugged — suspension bridges over surge channels, old-growth rainforest, and remote beaches with not a soul in sight.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://bcparks.ca/juan-de-fuca-park/",
+    "campgrounds": [
+      {
+        "name": "China Beach",
+        "sites": 78,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "surfing",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/juan-de-fuca.webp"
+  },
+  {
+    "id": "cape-scott",
+    "name": "Cape Scott Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 50.7833,
+    "lng": -128.4333,
+    "description": "At the remote northern tip of Vancouver Island, Cape Scott is the end of the road — literally. The trail to Cape Scott lighthouse crosses temperate rainforest and windswept bogs to reach some of the most isolated beaches in the province. San Josef Bay, a wide crescent of sand backed by sea stacks, is the signature destination.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/cape-scott-park/",
+    "campgrounds": [
+      {
+        "name": "San Josef Bay",
+        "sites": 15,
+        "amenities": [
+          "vault_toilets"
+        ],
+        "terrain": "coastal",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/cape-scott.webp"
+  },
+  {
+    "id": "elk-island",
+    "name": "Elk Island National Park",
+    "province": "Alberta",
+    "type": "national",
+    "lat": 53.5924,
+    "lng": -112.87,
+    "description": "A fenced sanctuary just 35 minutes from Edmonton, protecting both plains and wood bison — the largest land mammals in North America. The park is also a Dark Sky Preserve, making it one of the best stargazing destinations near a major city. The Beaver Hills are gentle and rolling, perfect for easy hikes and family outings.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/ElkIsland",
+    "campgrounds": [
+      {
+        "name": "Astotin Lake",
+        "sites": 77,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "wildlife_viewing",
+      "stargazing",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/elk-island.webp"
+  },
+  {
+    "id": "writing-on-stone",
+    "name": "Writing-on-Stone / Áísínai'pi Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 49.0833,
+    "lng": -111.6167,
+    "description": "A UNESCO World Heritage Site where the Milk River carves through eroded sandstone hoodoos adorned with the largest concentration of Indigenous rock art on the North American Great Plains. Sacred to the Blackfoot people for millennia, the landscape feels ancient and otherworldly. Guided tours access the restricted rock art areas.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/writing-on-stone/",
+    "campgrounds": [
+      {
+        "name": "Writing-on-Stone Campground",
+        "sites": 62,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "photography",
+      "stargazing",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/writing-on-stone.webp"
+  },
+  {
+    "id": "bow-valley",
+    "name": "Bow Valley Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 51.05,
+    "lng": -115.0833,
+    "description": "The gateway to Kananaskis Country, sitting at the confluence of the Bow and Kananaskis rivers with dramatic mountain views in every direction. More relaxed and affordable than neighbouring Banff, Bow Valley is a favourite for Calgary families. The paved trails and abundant wildlife (elk, deer, the occasional grizzly) make it equally accessible and wild.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/bow-valley/",
+    "campgrounds": [
+      {
+        "name": "Bow Valley",
+        "sites": 131,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "trails",
+          "playground",
+          "dump_station"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      },
+      {
+        "name": "Willow Rock",
+        "sites": 63,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "cycling",
+      "wildlife_viewing",
+      "cross_country_skiing",
+      "photography"
+    ],
+    "imageUrl": "/parks/bow-valley.webp"
+  },
+  {
+    "id": "william-a-switzer",
+    "name": "William A. Switzer Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 53.55,
+    "lng": -117.6833,
+    "description": "A chain of five lakes in the Athabasca River valley near Hinton, just east of Jasper. Switzer is the quieter, more affordable alternative to the national park next door. Excellent fishing (rainbow and brook trout), easy paddling, and a network of equestrian and hiking trails through boreal and foothill forests.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/william-a-switzer/",
+    "campgrounds": [
+      {
+        "name": "Gregg Lake",
+        "sites": 110,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "boat_launch",
+          "swimming",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Cache Lake",
+        "sites": 40,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "fishing",
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "swimming",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/william-a-switzer.webp"
+  },
+  {
+    "id": "crimson-lake",
+    "name": "Crimson Lake Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 52.35,
+    "lng": -115.9833,
+    "description": "A popular central Alberta retreat between Rocky Mountain House and Nordegg. Crimson Lake's clear waters are surrounded by boreal forest, offering warm swimming and good pike and trout fishing. The connected Twin Lakes loop trail is a gentle introduction to the Alberta foothills, and the park is a reliable spot for spotting loons and ospreys.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/crimson-lake/",
+    "campgrounds": [
+      {
+        "name": "Crimson Lake Campground",
+        "sites": 150,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "boat_launch",
+          "swimming",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/crimson-lake.webp"
+  },
+  {
+    "id": "spray-valley",
+    "name": "Spray Valley Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 50.8667,
+    "lng": -115.3833,
+    "description": "Wedged between Banff and Peter Lougheed in the heart of Kananaskis Country, Spray Valley offers some of the most dramatic mountain scenery in Alberta without the national park crowds. The Spray Lakes reservoir reflects jagged peaks, and the park is a launch point for iconic scrambles including Ha Ling Peak and the Tent Ridge Horseshoe.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/spray-valley/",
+    "campgrounds": [
+      {
+        "name": "Spray Lakes West",
+        "sites": 50,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "kayaking",
+      "rock_climbing",
+      "wildlife_viewing",
+      "photography",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/spray-valley.webp"
+  },
+  {
+    "id": "quetico",
+    "name": "Quetico Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 48.6667,
+    "lng": -91.1,
+    "description": "Ontario's premier wilderness canoe park, bordering Minnesota's Boundary Waters. Over 2,000 km of canoe routes wind through a roadless expanse of boreal forest, ancient rock paintings, and crystalline lakes. No motorboats allowed in the interior. This is what canoe tripping is meant to be — silent, vast, and utterly wild.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Quetico",
+    "campgrounds": [
+      {
+        "name": "Dawson Trail",
+        "sites": 107,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/quetico.webp"
+  },
+  {
+    "id": "frontenac",
+    "name": "Frontenac Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 44.5167,
+    "lng": -76.55,
+    "description": "A rugged patch of Canadian Shield in eastern Ontario, Frontenac is a backcountry gem with no car-accessible camping — you hike or paddle to every site. The reward is solitude, granite ridges, and over 20 lakes teeming with bass and trout. Popular with backpackers looking for a wilderness experience within a few hours of Ottawa or Kingston.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Frontenac",
+    "campgrounds": [
+      {
+        "name": "Interior Sites",
+        "sites": 48,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/frontenac.webp"
+  },
+  {
+    "id": "grundy-lake",
+    "name": "Grundy Lake Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 45.7833,
+    "lng": -80.4,
+    "description": "Six clear, warm lakes on the Canadian Shield, connected by short portages and surrounded by smooth granite outcrops — natural waterslides included. Grundy Lake is a family favourite for its calm swimming, easy paddling, and gentle trails. The sunset views from the granite slopes are worth the trip alone.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/GrundyLake",
+    "campgrounds": [
+      {
+        "name": "Grundy Lake",
+        "sites": 454,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "hiking",
+      "fishing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/grundy-lake.webp"
+  },
+  {
+    "id": "awenda",
+    "name": "Awenda Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 44.85,
+    "lng": -79.9667,
+    "description": "A quiet pocket of Georgian Bay's southern shore, where hardwood forest meets sandy beaches. Awenda protects one of the most ecologically diverse areas in the region, with old-growth hemlock stands and rare fern species. The beaches are warm and uncrowded, and the park is a short drive from Midland's historic Huron-Wendat sites.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Awenda",
+    "campgrounds": [
+      {
+        "name": "Awenda Campground",
+        "sites": 332,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/awenda.webp"
+  },
+  {
+    "id": "pinery",
+    "name": "Pinery Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 43.25,
+    "lng": -81.8333,
+    "description": "A rare Carolinian oak savanna on the shores of Lake Huron, with 10 km of golden sand beach. Pinery protects one of the most endangered ecosystems in Canada — the oak woodland community found nowhere else in Ontario. The Old Ausable Channel is perfect for lazy float trips, and sunsets over Lake Huron are legendary.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Pinery",
+    "campgrounds": [
+      {
+        "name": "Riverside",
+        "sites": 261,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      },
+      {
+        "name": "Dunes",
+        "sites": 220,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails"
+        ],
+        "terrain": "dune",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/pinery.webp"
+  },
+  {
+    "id": "arrowhead",
+    "name": "Arrowhead Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 45.3833,
+    "lng": -79.2167,
+    "description": "Near Huntsville in Muskoka cottage country, Arrowhead is a four-season park best known for its stunning Stubb's Falls and, in winter, a magical 1.3-km ice skating trail through the forest lit by torches. Summer brings warm lake swimming and easy hiking. A more affordable alternative to the private Muskoka resort scene.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Arrowhead",
+    "campgrounds": [
+      {
+        "name": "Arrowhead Campground",
+        "sites": 388,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "cycling",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/arrowhead.webp"
+  },
+  {
+    "id": "lake-superior",
+    "name": "Lake Superior Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 47.75,
+    "lng": -84.8833,
+    "description": "A vast stretch of Lake Superior's eastern shore, where the Canadian Shield plunges into the world's largest freshwater lake. The Agawa Rock pictographs, painted centuries ago on a sheer cliff face above the lake, are the signature attraction. The Coastal Trail is a rugged multi-day backpack, and the autumn colours along Highway 17 are among Ontario's finest.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/LakeSuperior",
+    "campgrounds": [
+      {
+        "name": "Agawa Bay",
+        "sites": 147,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": true
+      },
+      {
+        "name": "Rabbit Blanket Lake",
+        "sites": 59,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/lake-superior.webp"
+  },
+  {
+    "id": "gaspesie",
+    "name": "Parc national de la Gaspésie",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 48.95,
+    "lng": -65.8833,
+    "description": "The highest peaks in southern Quebec rise from this park in the heart of the Gaspé Peninsula. The Chic-Choc Mountains shelter the last herd of woodland caribou south of the St. Lawrence — a sight found nowhere else this far south. Alpine tundra, boreal forest, and dramatic ridgeline hiking make this a world-class mountain destination.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/gas/",
+    "campgrounds": [
+      {
+        "name": "Mont-Albert",
+        "sites": 82,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/gaspesie.webp"
+  },
+  {
+    "id": "bic",
+    "name": "Parc national du Bic",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 48.35,
+    "lng": -68.7667,
+    "description": "Where the Appalachian Mountains dip their toes into the St. Lawrence estuary. Bic is compact but breathtaking — rocky capes, tidal flats, seal colonies, and some of the most beautiful sunsets in Quebec. The park's intimate scale makes it perfect for a weekend, with easy trails that deliver constant coastal drama.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/bic/",
+    "campgrounds": [
+      {
+        "name": "Rivière-du-Sud-Ouest",
+        "sites": 166,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "cycling",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/bic.webp"
+  },
+  {
+    "id": "oka",
+    "name": "Parc national d'Oka",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 45.4833,
+    "lng": -74.05,
+    "description": "The closest SEPAQ national park to Montreal, sitting on the shores of Lac des Deux Montagnes. Oka's long sandy beach is wildly popular in summer, and the trails through the hills offer surprisingly good hiking with views of the lake and the Laurentians beyond. The park includes a historic Calvary trail dating to 1740.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/oka/",
+    "campgrounds": [
+      {
+        "name": "Oka Campground",
+        "sites": 575,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground",
+          "dump_station"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "cycling",
+      "kayaking",
+      "cross_country_skiing",
+      "snowshoeing"
+    ],
+    "imageUrl": "/parks/oka.webp"
+  },
+  {
+    "id": "hautes-gorges",
+    "name": "Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 47.8333,
+    "lng": -70.5167,
+    "description": "One of the deepest valleys in eastern North America, where sheer rock walls rise 800 metres from the Malbaie River. The Acropole des Draveurs trail climbs relentlessly to a cliff-edge viewpoint that is genuinely vertigo-inducing — and one of the most spectacular views in Quebec. The river valley is equally stunning by kayak or cruise boat.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/hgo/",
+    "campgrounds": [
+      {
+        "name": "Équerre",
+        "sites": 97,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "photography"
+    ],
+    "imageUrl": "/parks/hautes-gorges.webp"
+  },
+  {
+    "id": "fjord-du-saguenay",
+    "name": "Parc national du Fjord-du-Saguenay",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 48.3167,
+    "lng": -70.0833,
+    "description": "The only navigable fjord in eastern North America, where the Saguenay River has carved a deep channel flanked by 300-metre cliffs. Beluga whales feed at the mouth where the fjord meets the St. Lawrence, and the hiking along the fjord's rim delivers one jaw-dropping viewpoint after another. The Via Ferrata is a thrilling cliff-side climbing route.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/sag/",
+    "campgrounds": [
+      {
+        "name": "Baie-Sainte-Marguerite",
+        "sites": 34,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      },
+      {
+        "name": "Tadoussac",
+        "sites": 45,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "wildlife_viewing",
+      "photography",
+      "rock_climbing"
+    ],
+    "imageUrl": "/parks/fjord-du-saguenay.webp"
+  },
+  {
+    "id": "mont-orford",
+    "name": "Parc national du Mont-Orford",
+    "province": "Quebec",
+    "type": "provincial",
+    "lat": 45.3333,
+    "lng": -72.2167,
+    "description": "In the heart of Quebec's Eastern Townships, Mont-Orford combines accessible mountain hiking with warm lake swimming at Stukely Lake. The summit trail rewards with views stretching across the rolling farmland to the Green Mountains of Vermont. A four-season park — in winter, the adjacent ski resort turns it into a snow sports hub.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.sepaq.com/pq/mor/",
+    "campgrounds": [
+      {
+        "name": "Stukely",
+        "sites": 261,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "cycling",
+      "fishing",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/mont-orford.webp"
+  },
+  {
+    "id": "cape-chignecto",
+    "name": "Cape Chignecto Provincial Park",
+    "province": "Nova Scotia",
+    "type": "provincial",
+    "lat": 45.3333,
+    "lng": -64.9833,
+    "description": "Nova Scotia's largest provincial park protects a dramatic stretch of Fundy coast — 200-metre sea cliffs, secluded cove beaches, and some of the most rugged coastal hiking in Atlantic Canada. The 51-km coastal loop takes 3 to 4 days, descending to remote beaches at Refugee Cove and Eatonville before climbing back to the clifftops.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://parks.novascotia.ca/park/cape-chignecto",
+    "campgrounds": [
+      {
+        "name": "Red Rocks",
+        "sites": 66,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/cape-chignecto.webp"
+  },
+  {
+    "id": "blomidon",
+    "name": "Blomidon Provincial Park",
+    "province": "Nova Scotia",
+    "type": "provincial",
+    "lat": 45.25,
+    "lng": -64.3333,
+    "description": "Perched on the dramatic red cliffs of Cape Blomidon, overlooking the Minas Basin and some of the highest tides in the world. At low tide, the beach below reveals an expanse of red mud flats stretching to the horizon. The Jodrey Trail along the clifftop offers soaring views, and the nearby Annapolis Valley's orchards and wineries are a bonus.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://parks.novascotia.ca/park/blomidon",
+    "campgrounds": [
+      {
+        "name": "Blomidon Campground",
+        "sites": 69,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/blomidon.webp"
+  },
+  {
+    "id": "five-islands",
+    "name": "Five Islands Provincial Park",
+    "province": "Nova Scotia",
+    "type": "provincial",
+    "lat": 45.3833,
+    "lng": -64.0667,
+    "description": "Named for five small islands visible offshore at high tide — and walkable at low tide, when the Bay of Fundy retreats to reveal a vast expanse of tidal flats and sea stacks. The Red Head trail climbs to clifftop lookouts with sweeping Fundy views. Excellent for rockhounding — agates and amethyst turn up regularly on the beach.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://parks.novascotia.ca/park/five-islands",
+    "campgrounds": [
+      {
+        "name": "Five Islands Campground",
+        "sites": 90,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "playground"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/five-islands.webp"
+  },
+  {
+    "id": "taylor-head",
+    "name": "Taylor Head Provincial Park",
+    "province": "Nova Scotia",
+    "type": "provincial",
+    "lat": 44.8167,
+    "lng": -62.55,
+    "description": "A long, narrow headland jutting into the Atlantic on Nova Scotia's Eastern Shore. White sand beaches line one side while the open ocean batters the other. The 16-km trail system loops through spruce forest and along coastal barrens, delivering remote beach after remote beach. Rarely crowded, even in peak summer.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://parks.novascotia.ca/park/taylor-head",
+    "campgrounds": [],
+    "activities": [
+      "hiking",
+      "swimming",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/taylor-head.webp"
+  },
+  {
+    "id": "thomas-raddall",
+    "name": "Thomas Raddall Provincial Park",
+    "province": "Nova Scotia",
+    "type": "provincial",
+    "lat": 43.8333,
+    "lng": -64.8667,
+    "description": "Tucked away on Nova Scotia's South Shore between Port Joli and Port Mouton, Thomas Raddall is a hidden gem with pristine white-sand beaches and a rugged coastal trail. The park sits on a peninsula where the forest meets the Atlantic, and the birding is excellent — piping plovers nest on the beaches, and seabirds are abundant offshore.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://parks.novascotia.ca/park/thomas-raddall",
+    "campgrounds": [
+      {
+        "name": "Thomas Raddall Campground",
+        "sites": 23,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/thomas-raddall.webp"
+  },
+  {
+    "id": "mount-assiniboine",
+    "name": "Mount Assiniboine Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 50.87,
+    "lng": -115.64,
+    "description": "Often called the 'Matterhorn of the Rockies', Mount Assiniboine's perfect pyramidal peak towers over alpine meadows, turquoise lakes, and the historic Naiset Huts. There are no roads in — you hike, ski, or fly by helicopter. The reward is one of the most spectacular alpine settings in North America, with world-class photography at every turn.",
+    "season": {
+      "open": "2026-06-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://bcparks.ca/mount-assiniboine-park/",
+    "campgrounds": [
+      {
+        "name": "Lake Magog",
+        "sites": 30,
+        "amenities": [
+          "vault_toilets",
+          "bear_locker"
+        ],
+        "terrain": "alpine",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "photography",
+      "fishing",
+      "wildlife_viewing",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/mount-assiniboine.webp"
+  },
+  {
+    "id": "cathedral",
+    "name": "Cathedral Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.06,
+    "lng": -120.21,
+    "description": "A hidden alpine plateau in the Okanagan's backcountry, ringed by bizarre rock formations that look like a giant's sculpture garden — the Stone City, Smokey the Bear, Devil's Woodpile. Reached by a steep trail or a shuttle from a private lodge, the core area sits at 2,000+ metres with 360-degree views, gem-coloured lakes, and mountain goats on the ridgelines.",
+    "season": {
+      "open": "2026-07-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://bcparks.ca/cathedral-park/",
+    "campgrounds": [
+      {
+        "name": "Quiniscoe Lake",
+        "sites": 16,
+        "amenities": [
+          "vault_toilets",
+          "bear_locker"
+        ],
+        "terrain": "alpine",
+        "bearCountry": true
+      },
+      {
+        "name": "Lake of the Woods",
+        "sites": 8,
+        "amenities": [
+          "vault_toilets"
+        ],
+        "terrain": "alpine",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/cathedral.webp"
+  },
+  {
+    "id": "rathtrevor-beach",
+    "name": "Rathtrevor Beach Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.3167,
+    "lng": -124.2667,
+    "description": "One of Vancouver Island's most popular family campgrounds, Rathtrevor's warm, shallow tidal flats stretch over a kilometre at low tide — perfect for kids splashing and sandcastle building. The old-growth Douglas fir forest behind the beach is magnificent, and the park sits minutes from Parksville and Qualicum Beach's restaurants and shops.",
+    "season": {
+      "open": "2026-04-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://bcparks.ca/rathtrevor-beach-park/",
+    "campgrounds": [
+      {
+        "name": "Rathtrevor Beach",
+        "sites": 174,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails",
+          "swimming",
+          "playground"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/rathtrevor-beach.webp"
+  },
+  {
+    "id": "tweedsmuir-south",
+    "name": "Tweedsmuir South Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 52.4,
+    "lng": -125.85,
+    "description": "BC's largest provincial park is a vast wilderness straddling the Coast Mountains, most famous for the Rainbow Range — volcanic peaks painted in vivid bands of red, orange, yellow, and purple that look like they belong on another planet. The Hunlen Falls, at 260 metres, is one of Canada's highest. This is serious backcountry — remote, rugged, and unforgettable.",
+    "season": {
+      "open": "2026-06-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://bcparks.ca/tweedsmuir-south-park/",
+    "campgrounds": [
+      {
+        "name": "Atnarko River",
+        "sites": 28,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "canoeing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/tweedsmuir-south.webp"
+  },
+  {
+    "id": "kokanee-creek",
+    "name": "Kokanee Creek Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.6333,
+    "lng": -116.9333,
+    "description": "A beloved Kootenay Lake campground where Kokanee Creek meets the lake's warm, clear waters. The sandy beach and sheltered swimming area make it a family magnet, while the Kokanee Glacier trailhead provides access to serious alpine hiking. In September, thousands of kokanee salmon spawn in the creek — a vivid natural spectacle.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/kokanee-creek-park/",
+    "campgrounds": [
+      {
+        "name": "Sandspit",
+        "sites": 98,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Redfish",
+        "sites": 73,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "hiking",
+      "kayaking",
+      "cycling",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/kokanee-creek.webp"
+  },
+  {
+    "id": "okanagan-lake",
+    "name": "Okanagan Lake Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.7667,
+    "lng": -119.6,
+    "description": "On the sunny shores of Okanagan Lake between Penticton and Summerland, this park offers warm-water swimming, sandy beaches, and proximity to the Okanagan's celebrated wine country. The dry ponderosa pine hillsides above the lake are home to rattlesnakes and canyon wrens. Camp here and spend your days wine-tasting, swimming, and watching legendary Okanagan sunsets.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://bcparks.ca/okanagan-lake-park/",
+    "campgrounds": [
+      {
+        "name": "North",
+        "sites": 88,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "boat_launch",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      },
+      {
+        "name": "South",
+        "sites": 80,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "kayaking",
+      "hiking",
+      "cycling",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/okanagan-lake.webp"
+  },
+  {
+    "id": "miracle-beach",
+    "name": "Miracle Beach Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.8667,
+    "lng": -125.0833,
+    "description": "A wide sandy beach on the Strait of Georgia near Campbell River, with warm ocean swimming and views across to the snow-capped Coast Mountains on the mainland. The old-growth forest behind the beach includes some massive Douglas firs and cedars. A nature house offers interpretive programs, and the park is a great base for exploring northern Vancouver Island.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/miracle-beach-park/",
+    "campgrounds": [
+      {
+        "name": "Miracle Beach",
+        "sites": 201,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "fishing",
+      "kayaking",
+      "wildlife_viewing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/miracle-beach.webp"
+  },
+  {
+    "id": "stein-valley",
+    "name": "Stein Valley Nlaka'pamux Heritage Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 50.2833,
+    "lng": -121.8833,
+    "description": "The last unlogged watershed in southern BC, co-managed with the Nlaka'pamux and Lil'wat Nations. The Stein Valley traverses 75 km from dry Interior canyon to glaciated Coast Mountain peaks. Ancient rock paintings, cultural sites, and old-growth forests make this a profoundly important landscape. The lower trail is accessible; the full traverse is a serious multi-day expedition.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/stein-valley-park/",
+    "campgrounds": [
+      {
+        "name": "Stein River",
+        "sites": 12,
+        "amenities": [
+          "vault_toilets"
+        ],
+        "terrain": "riverside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/stein-valley.webp"
+  },
+  {
+    "id": "sasquatch",
+    "name": "Sasquatch Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 49.3333,
+    "lng": -121.95,
+    "description": "On the shores of Harrison Lake — BC's largest lake in the Lower Mainland — with nearby Harrison Hot Springs adding a spa-like perk to the camping experience. Three lakes within the park (Deer, Hicks, and Trout) offer different personalities: warm swimming, trout fishing, or quiet paddling. The surrounding forest is dense and mossy, classic Pacific Northwest.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://bcparks.ca/sasquatch-park/",
+    "campgrounds": [
+      {
+        "name": "Hicks Lake",
+        "sites": 71,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "swimming",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Deer Lake",
+        "sites": 35,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/sasquatch.webp"
+  },
+  {
+    "id": "nairn-falls",
+    "name": "Nairn Falls Provincial Park",
+    "province": "British Columbia",
+    "type": "provincial",
+    "lat": 50.3333,
+    "lng": -122.8167,
+    "description": "Just south of Pemberton in the Sea to Sky corridor, Nairn Falls thunders through a narrow volcanic gorge with tremendous force. The short trail to the falls is one of the best quick hikes in the region, and the campground sits along the Green River in towering old-growth cedar forest. A perfect overnight stop between Whistler and Lillooet.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://bcparks.ca/nairn-falls-park/",
+    "campgrounds": [
+      {
+        "name": "Nairn Falls",
+        "sites": 88,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "kayaking",
+      "photography"
+    ],
+    "imageUrl": "/parks/nairn-falls.webp"
+  },
+  {
+    "id": "dry-island-buffalo-jump",
+    "name": "Dry Island Buffalo Jump Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 51.9333,
+    "lng": -112.9667,
+    "description": "A dramatic mesa rising from the Red Deer River valley, where bison were once driven over cliffs by Indigenous hunters. The badlands scenery here rivals Drumheller — eroded hoodoos, colourful sedimentary layers, and fossils eroding from the canyon walls. It's uncrowded and raw, a landscape that feels like stepping back in geological time.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/dry-island-buffalo-jump/",
+    "campgrounds": [
+      {
+        "name": "Tolman Badlands",
+        "sites": 32,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets"
+        ],
+        "terrain": "badlands",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "canoeing",
+      "fishing",
+      "photography",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/dry-island-buffalo-jump.webp"
+  },
+  {
+    "id": "lesser-slave-lake",
+    "name": "Lesser Slave Lake Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 55.4333,
+    "lng": -115.4333,
+    "description": "Northern Alberta's beach destination, with a wide stretch of white sand rivalling anything in the south. Lesser Slave Lake's boreal setting means long summer days, warm shallow water, and fewer crowds. The Boreal Centre for Bird Conservation is here — the lake is a major staging area for migratory waterfowl, with spectacular spring and fall birding.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/lesser-slave-lake/",
+    "campgrounds": [
+      {
+        "name": "Marten Beach",
+        "sites": 156,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "playground",
+          "dump_station"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "hiking",
+      "kayaking",
+      "wildlife_viewing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/lesser-slave-lake.webp"
+  },
+  {
+    "id": "aspen-beach",
+    "name": "Aspen Beach Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 52.4167,
+    "lng": -113,
+    "description": "On the shores of Gull Lake in central Alberta, Aspen Beach has been a family camping tradition for generations. The sandy beach and warm lake are the main draw — this is one of the warmest swimming lakes in the province. The aspen and spruce campground feels classic Albertan, and the nearby town of Lacombe offers supplies and a craft brewery.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/aspen-beach/",
+    "campgrounds": [
+      {
+        "name": "Lakeview",
+        "sites": 191,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "playground",
+          "dump_station"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "kayaking",
+      "hiking",
+      "cycling"
+    ],
+    "imageUrl": "/parks/aspen-beach.webp"
+  },
+  {
+    "id": "beauvais-lake",
+    "name": "Beauvais Lake Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 49.3833,
+    "lng": -114.1833,
+    "description": "A tranquil foothill lake tucked beneath the Livingstone Range in the Crowsnest Pass area. Beauvais Lake offers a quieter, more intimate mountain experience than the busy national parks to the north. The fishing is excellent (rainbow and brook trout), the hiking connects to the Castle Wildland network, and the views of the front ranges at sunset are sublime.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/beauvais-lake/",
+    "campgrounds": [
+      {
+        "name": "Beauvais Lake",
+        "sites": 97,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "fishing",
+      "hiking",
+      "canoeing",
+      "kayaking",
+      "wildlife_viewing",
+      "photography"
+    ]
+  },
+  {
+    "id": "chain-lakes",
+    "name": "Chain Lakes Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 50.1667,
+    "lng": -114.1667,
+    "description": "In the rolling foothills south of Calgary, Chain Lakes reservoir sits beneath the dramatic wall of the Livingstone Range. The landscape is classic Alberta ranching country — big sky, golden grass, and mountains on the horizon. The reservoir offers good pike and trout fishing, and the open terrain makes for excellent birdwatching, especially during raptor migration.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/chain-lakes/",
+    "campgrounds": [
+      {
+        "name": "Chain Lakes",
+        "sites": 60,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "fishing",
+      "kayaking",
+      "hiking",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/chain-lakes.webp"
+  },
+  {
+    "id": "lakeland",
+    "name": "Lakeland Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 54.7333,
+    "lng": -111.8,
+    "description": "A network of pristine boreal lakes in northeastern Alberta, connected by portage routes through dense mixed-wood forest. Lakeland is Alberta's answer to Algonquin — multi-day canoe trips, loon calls, northern pike, and virtually no crowds. The backcountry campsites are beautifully maintained, and the northern lights are frequently visible.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/lakeland/",
+    "campgrounds": [
+      {
+        "name": "Seibert Lake",
+        "sites": 44,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Touchwood Lake",
+        "sites": 36,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "hiking",
+      "wildlife_viewing",
+      "stargazing"
+    ],
+    "imageUrl": "/parks/lakeland.webp"
+  },
+  {
+    "id": "castle",
+    "name": "Castle Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 49.3167,
+    "lng": -114.4167,
+    "description": "One of Alberta's newest provincial parks, protecting the Castle River watershed in the southern Rockies between Waterton and the Crowsnest Pass. The Castle is a biodiversity hotspot — grizzly bears, wolverines, and bull trout thrive here. The landscape is raw and relatively undeveloped, with backcountry trails connecting to a vast wildland network.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/castle/",
+    "campgrounds": [
+      {
+        "name": "Beaver Mines Lake",
+        "sites": 68,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      },
+      {
+        "name": "Castle Falls",
+        "sites": 24,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "riverside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "canoeing",
+      "wildlife_viewing",
+      "photography",
+      "cross_country_skiing"
+    ],
+    "imageUrl": "/parks/castle.webp"
+  },
+  {
+    "id": "ram-falls",
+    "name": "Ram Falls Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 52.2833,
+    "lng": -116.1,
+    "description": "A hidden gem in the Alberta foothills west of Rocky Mountain House. Ram Falls drops 18 metres over a horseshoe-shaped cliff into a deep canyon — one of the most photogenic waterfalls in the province. The surrounding David Thompson Country is a gateway to the Bighorn Backcountry, with excellent hiking, fishing, and wildlife viewing.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/ram-falls/",
+    "campgrounds": [
+      {
+        "name": "Ram Falls",
+        "sites": 43,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "trails"
+        ],
+        "terrain": "forested",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "fishing",
+      "photography",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/ram-falls.webp"
+  },
+  {
+    "id": "gregoire-lake",
+    "name": "Gregoire Lake Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 56.5667,
+    "lng": -111.1333,
+    "description": "A warm, sandy beach on the boreal plain near Fort McMurray — proof that northern Alberta has its own summer charms. Gregoire Lake's shallow waters warm up quickly in June, making it one of the best swimming spots in the north. The surrounding boreal forest is home to moose, beavers, and nesting bald eagles.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/gregoire-lake/",
+    "campgrounds": [
+      {
+        "name": "Gregoire Lake",
+        "sites": 142,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "kayaking",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/gregoire-lake.webp"
+  },
+  {
+    "id": "sir-winston-churchill",
+    "name": "Sir Winston Churchill Provincial Park",
+    "province": "Alberta",
+    "type": "provincial",
+    "lat": 54.0333,
+    "lng": -110.1333,
+    "description": "Alberta's only island provincial park, reached by a causeway on Lac La Biche. The island's boreal forest and sandy beaches feel surprisingly remote despite easy access. The lake is one of the finest in northern Alberta — deep, clear, and excellent for walleye and northern pike. The mixed-wood forest is alive with birdsong in summer.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://www.albertaparks.ca/sir-winston-churchill/",
+    "campgrounds": [
+      {
+        "name": "Long Bay",
+        "sites": 72,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "fishing",
+      "kayaking",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/sir-winston-churchill.webp"
+  },
+  {
+    "id": "sleeping-giant",
+    "name": "Sleeping Giant Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 48.3667,
+    "lng": -88.9,
+    "description": "A dramatic mesa rising from Lake Superior near Thunder Bay, shaped like a giant lying on its back — visible from the city across the harbour. The Top of the Giant trail delivers one of the most spectacular viewpoints in Ontario: a sheer 250-metre cliff above the lake. The park's interior is a wilderness of boreal forest, moose, and lynx.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/SleepingGiant",
+    "campgrounds": [
+      {
+        "name": "Marie Louise Lake",
+        "sites": 197,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/sleeping-giant.webp"
+  },
+  {
+    "id": "kawartha-highlands",
+    "name": "Kawartha Highlands Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 44.8,
+    "lng": -78.2667,
+    "description": "Ontario's largest non-operating park south of Algonquin, a rugged slab of Canadian Shield laced with over 70 lakes connected by portages. No car-accessible campsites — you paddle or hike to every one. The granite ridges, wild rice beds, and crystal-clear lakes offer a genuine backcountry experience just two hours from Toronto.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/KawarthaHighlands",
+    "campgrounds": [
+      {
+        "name": "Interior Sites",
+        "sites": 60,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "hiking",
+      "swimming",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/kawartha-highlands.webp"
+  },
+  {
+    "id": "silent-lake",
+    "name": "Silent Lake Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 44.8833,
+    "lng": -78.0333,
+    "description": "True to its name, Silent Lake enforces a no-motorboat policy, preserving the stillness of this pristine Canadian Shield lake. The water is so clear you can see the bottom at depth, and the forested shoreline is unbroken. Excellent mountain biking trails loop through the backcountry, and the park is a reliable spot for loon sightings.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/SilentLake",
+    "campgrounds": [
+      {
+        "name": "Pincer Bay",
+        "sites": 167,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "swimming",
+      "hiking",
+      "cycling",
+      "fishing",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/silent-lake.webp"
+  },
+  {
+    "id": "french-river",
+    "name": "French River Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 46.0167,
+    "lng": -80.2833,
+    "description": "A Canadian Heritage River and one of the most historically significant waterways in the country — fur traders, voyageurs, and Indigenous peoples have paddled this route for millennia. The French River connects Georgian Bay to Lake Nipissing through a braided network of channels, granite gorges, and rapids. Excellent fishing (smallmouth bass, walleye, musky) and paddling.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/FrenchRiver",
+    "campgrounds": [
+      {
+        "name": "Hartley Bay",
+        "sites": 36,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "vault_toilets",
+          "boat_launch"
+        ],
+        "terrain": "riverside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "swimming",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/french-river.webp"
+  },
+  {
+    "id": "massasauga",
+    "name": "The Massasauga Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 45.2,
+    "lng": -80.0167,
+    "description": "A cluster of wind-swept islands and inlets on eastern Georgian Bay, named for the rare Massasauga rattlesnake. All camping is water-access only — you paddle to your site on smooth granite shorelines surrounded by wind-sculpted pines. The landscape is quintessential Georgian Bay: rugged, beautiful, and endlessly photographable.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Massasauga",
+    "campgrounds": [
+      {
+        "name": "Interior Sites",
+        "sites": 135,
+        "amenities": [
+          "fire_pit",
+          "vault_toilets"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "canoeing",
+      "kayaking",
+      "swimming",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/massasauga.webp"
+  },
+  {
+    "id": "charleston-lake",
+    "name": "Charleston Lake Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 44.5167,
+    "lng": -76.0333,
+    "description": "A hidden gem in the Thousand Islands region where the Canadian Shield meets the St. Lawrence Lowlands. The deep, clear lake has a complex shoreline of bays, islands, and rocky outcrops that's exceptional for kayaking. The park is on a migratory flyway, making it one of eastern Ontario's best birding destinations.",
+    "season": {
+      "open": "2026-05-01",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/CharlestonLake",
+    "campgrounds": [
+      {
+        "name": "Charleston Lake",
+        "sites": 238,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "kayaking",
+      "canoeing",
+      "swimming",
+      "fishing",
+      "hiking",
+      "wildlife_viewing",
+      "cycling"
+    ],
+    "imageUrl": "/parks/charleston-lake.webp"
+  },
+  {
+    "id": "rondeau",
+    "name": "Rondeau Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 42.2833,
+    "lng": -81.85,
+    "description": "A sandy peninsula jutting into Lake Erie, Rondeau protects one of the largest remaining tracts of Carolinian forest in Canada. The biodiversity is extraordinary — sassafras, tulip trees, and species found nowhere else in the province. Spring warbler migration draws birders from across the continent, and the long, warm beach is Lake Erie at its finest.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Rondeau",
+    "campgrounds": [
+      {
+        "name": "South Point",
+        "sites": 262,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/rondeau.webp"
+  },
+  {
+    "id": "presquile",
+    "name": "Presqu'ile Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 43.9833,
+    "lng": -77.7167,
+    "description": "A tombolo peninsula on Lake Ontario near Brighton, Presqu'ile is one of the most important migratory bird staging areas on the Great Lakes. The beaches are warm and family-friendly, the marsh boardwalk is teeming with wildlife, and the 1840 lighthouse is the second oldest on the Great Lakes. A classic Ontario park experience.",
+    "season": {
+      "open": "2026-04-15",
+      "close": "2026-10-31"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Presquile",
+    "campgrounds": [
+      {
+        "name": "Presqu'ile Campground",
+        "sites": 394,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails",
+          "playground"
+        ],
+        "terrain": "forested",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "hiking",
+      "cycling",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/presquile.webp"
+  },
+  {
+    "id": "restoule",
+    "name": "Restoule Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 46.1,
+    "lng": -79.6833,
+    "description": "A quiet park on Restoule Lake near North Bay, beloved for its warm swimming and the Fire Tower Trail — a short climb to panoramic views of the Restoule River valley stretching to the horizon. The park straddles the transition between Shield and lowland, with mixed forests that erupt in colour each autumn. Less crowded than its southern neighbours.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Restoule",
+    "campgrounds": [
+      {
+        "name": "Restoule Campground",
+        "sites": 283,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "boat_launch",
+          "trails",
+          "playground"
+        ],
+        "terrain": "lakeside",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "swimming",
+      "canoeing",
+      "kayaking",
+      "fishing",
+      "hiking",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/restoule.webp"
+  },
+  {
+    "id": "neys",
+    "name": "Neys Provincial Park",
+    "province": "Ontario",
+    "type": "provincial",
+    "lat": 48.7833,
+    "lng": -86.95,
+    "description": "A remote and haunting stretch of Lake Superior shoreline, where a pristine cobble beach looks out toward the Coldwell Peninsula. The park's WWII history adds another layer — it was once a prisoner-of-war camp, and interpretive displays tell the story. The landscape is classically Superior: boreal forest, fog rolling off the lake, and deep solitude.",
+    "season": {
+      "open": "2026-06-01",
+      "close": "2026-09-30"
+    },
+    "bookingUrl": "https://reservations.ontarioparks.ca/Neys",
+    "campgrounds": [
+      {
+        "name": "Neys Campground",
+        "sites": 144,
+        "amenities": [
+          "fire_pit",
+          "potable_water",
+          "flush_toilets",
+          "showers",
+          "electricity",
+          "swimming",
+          "trails"
+        ],
+        "terrain": "coastal",
+        "bearCountry": true
+      }
+    ],
+    "activities": [
+      "hiking",
+      "swimming",
+      "kayaking",
+      "fishing",
+      "wildlife_viewing",
+      "photography"
+    ],
+    "imageUrl": "/parks/neys.webp"
+  },
+  {
+    "id": "fathom-five",
+    "name": "Fathom Five National Marine Park",
+    "province": "Ontario",
+    "type": "national",
+    "lat": 45.3167,
+    "lng": -81.6333,
+    "description": "Canada's first national marine park, at the tip of the Bruce Peninsula in Tobermory. The impossibly clear turquoise water reveals over 20 historic shipwrecks, making it one of the best freshwater diving destinations in the world. Flowerpot Island — with its iconic sea stack rock pillars — is the signature day trip, reached by glass-bottom boat or kayak.",
+    "season": {
+      "open": "2026-05-15",
+      "close": "2026-10-15"
+    },
+    "bookingUrl": "https://reservation.pc.gc.ca/FathomFive",
+    "campgrounds": [
+      {
+        "name": "Flowerpot Island",
+        "sites": 6,
+        "amenities": [
+          "vault_toilets"
+        ],
+        "terrain": "coastal",
+        "bearCountry": false
+      }
+    ],
+    "activities": [
+      "scuba_diving",
+      "kayaking",
+      "swimming",
+      "hiking",
+      "photography",
+      "wildlife_viewing"
+    ],
+    "imageUrl": "/parks/fathom-five.webp"
+  }
+]

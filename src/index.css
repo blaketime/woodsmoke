@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  /* Woodsmoke colour palette */
+  --color-sage: #87946F;
+  --color-sage-light: #A3AE8F;
+  --color-sage-dark: #6B7A56;
+  --color-brown: #8B7355;
+  --color-brown-light: #A6916F;
+  --color-brown-dark: #6F5B42;
+  --color-cream: #F5F0E8;
+  --color-cream-dark: #E8E0D4;
+  --color-charcoal: #2D2D2D;
+  --color-charcoal-light: #4A4A4A;
+  --color-rust: #C4663A;
+  --color-rust-light: #D4845E;
+  --color-rust-dark: #A3522D;
+
+  /* Typography */
+  --font-display: "DM Serif Display", serif;
+  --font-body: "DM Sans", sans-serif;
+}
+
+/* Base styles */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle paper grain texture overlay */
+#root::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* Panel slide-in animation */
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.25s ease-out;
+}
+
+/* Bottom sheet slide-up animation */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.25s ease-out;
+}
+
+/* User location pulse animation */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 1.5s ease-out infinite;
+}
+
+/* ─── MapLibre Control Overrides ─── */
+/* Match header UI: bg-white/90 backdrop-blur-sm rounded-xl shadow-sm */
+
+
+/* Attribution — inline text strip at bottom */
+.maplibregl-ctrl-attrib {
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(4px);
+  border-radius: 0 !important;
+  font-family: var(--font-body) !important;
+  font-size: 10px !important;
+  color: var(--color-charcoal-light) !important;
+  padding: 2px 8px !important;
+}
+
+/* Compact (i) toggle button */
+.maplibregl-ctrl-attrib.maplibregl-compact {
+  background: transparent !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  min-height: 0 !important;
+  min-width: 0 !important;
+  padding: 0 !important;
+}
+
+.maplibregl-ctrl-attrib.maplibregl-compact::after {
+  display: none !important;
+}
+
+.maplibregl-ctrl-attrib-button {
+  display: none !important;
+}
+
+/* Always show attribution text inline */
+.maplibregl-ctrl-attrib.maplibregl-compact .maplibregl-ctrl-attrib-inner {
+  display: block !important;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--color-charcoal-light) !important;
+  text-decoration: none !important;
+}
+
+.maplibregl-ctrl-attrib a:hover {
+  color: var(--color-rust) !important;
+}
+
+/* Hide all scrollbars globally */
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
