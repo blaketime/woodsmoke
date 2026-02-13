@@ -14,7 +14,7 @@ export default function WeatherSourceBanner({ forecast }: WeatherSourceBannerPro
     return (
       <div className="flex items-start gap-3 px-4 py-3 rounded-xl bg-brown/10 border border-brown/20">
         <Info className="w-5 h-5 text-brown mt-0.5 shrink-0" />
-        <p className="text-sm text-brown-dark leading-relaxed">
+        <p className="text-sm text-brown-dark dark:text-brown-light leading-relaxed">
           Based on historical averages (2021–2025). Actual conditions may vary.
         </p>
       </div>
@@ -22,7 +22,7 @@ export default function WeatherSourceBanner({ forecast }: WeatherSourceBannerPro
   }
 
   return (
-    <p className="mt-3 text-xs text-charcoal-light/60 flex items-center gap-1.5">
+    <p className="mt-3 text-xs text-charcoal-light/60 dark:text-dark-text-secondary/60 flex items-center gap-1.5">
       <Info className="w-3.5 h-3.5" />
       Live forecast from Open-Meteo
     </p>

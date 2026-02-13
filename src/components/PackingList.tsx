@@ -49,12 +49,12 @@ export default function PackingList({ items, onToggle }: PackingListProps) {
       {/* Progress */}
       <div className="space-y-1.5">
         <div className="flex items-center justify-between text-sm">
-          <span className="text-charcoal-light">
+          <span className="text-charcoal-light dark:text-dark-text-secondary">
             {checkedCount} / {totalCount} items packed
           </span>
-          <span className="text-charcoal-light font-medium">{progressPct}%</span>
+          <span className="text-charcoal-light dark:text-dark-text-secondary font-medium">{progressPct}%</span>
         </div>
-        <div className="h-2 rounded-full bg-cream-dark overflow-hidden">
+        <div className="h-2 rounded-full bg-cream-dark dark:bg-dark-border overflow-hidden">
           <div
             className="h-full rounded-full bg-sage transition-all duration-300"
             style={{ width: `${progressPct}%` }}
@@ -76,15 +76,15 @@ export default function PackingList({ items, onToggle }: PackingListProps) {
             <button
               type="button"
               onClick={() => toggleCollapse(cat)}
-              className="w-full flex items-center gap-2 py-2 px-1 rounded-lg hover:bg-sage/5 transition-colors"
+              className="w-full flex items-center gap-2 py-2 px-1 rounded-lg hover:bg-sage/5 dark:hover:bg-sage/10 transition-colors"
             >
               <Icon className="w-4 h-4 text-sage" />
-              <span className="font-medium text-charcoal text-sm">{label}</span>
-              <span className="text-xs text-charcoal-light">
+              <span className="font-medium text-charcoal dark:text-cream text-sm">{label}</span>
+              <span className="text-xs text-charcoal-light dark:text-dark-text-secondary">
                 ({catChecked}/{catItems.length})
               </span>
               <ChevronDown
-                className={`w-4 h-4 text-charcoal-light ml-auto transition-transform duration-200 ${
+                className={`w-4 h-4 text-charcoal-light dark:text-dark-text-secondary ml-auto transition-transform duration-200 ${
                   isCollapsed ? '-rotate-90' : ''
                 }`}
               />
@@ -100,24 +100,24 @@ export default function PackingList({ items, onToggle }: PackingListProps) {
                   {catItems.map(item => (
                     <label
                       key={item.id}
-                      className="flex items-start gap-3 px-3 py-2 rounded-lg hover:bg-sage/5 cursor-pointer transition-colors"
+                      className="item-slide flex items-start gap-3 px-3 py-2"
                     >
                       <input
                         type="checkbox"
                         checked={item.checked}
                         onChange={() => onToggle(item.id)}
-                        className="mt-0.5 w-4 h-4 rounded accent-sage flex-shrink-0"
+                        className="check-pop mt-0.5 w-4 h-4 rounded flex-shrink-0"
                       />
                       <div className="min-w-0">
                         <span
                           className={`text-sm transition-all duration-200 ${
-                            item.checked ? 'line-through text-charcoal-light' : 'text-charcoal'
+                            item.checked ? 'line-through text-charcoal-light dark:text-dark-text-secondary' : 'text-charcoal dark:text-cream'
                           }`}
                         >
                           {item.name}
                         </span>
                         {item.reason && (
-                          <p className="text-xs text-charcoal-light italic mt-0.5">{item.reason}</p>
+                          <p className="text-xs text-charcoal-light dark:text-dark-text-secondary italic mt-0.5">{item.reason}</p>
                         )}
                       </div>
                     </label>

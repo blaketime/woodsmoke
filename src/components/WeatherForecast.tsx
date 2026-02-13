@@ -54,7 +54,7 @@ export default function WeatherForecast({ forecast, isLoading, error, compact }:
     return (
       <div className={gridCls}>
         {Array.from({ length: 7 }).map((_, i) => (
-          <div key={i} className={`bg-white/60 ${cardBase}`}>
+          <div key={i} className={`bg-white/60 dark:bg-dark-surface/60 ${cardBase}`}>
             <Skeleton className="w-10 h-3" />
             <Skeleton className="w-7 h-7 rounded-full" />
             <Skeleton className="w-14 h-3" />
@@ -83,22 +83,22 @@ export default function WeatherForecast({ forecast, isLoading, error, compact }:
         const isHistorical = day.dataSource === 'historical'
         const cardBg = isHistorical
           ? 'bg-brown/5 border border-brown/20'
-          : 'bg-white/60'
+          : 'bg-white/60 dark:bg-dark-surface/60'
 
         return (
           <div
             key={day.date}
             className={`${cardBg} ${cardBase}`}
           >
-            <span className="text-xs font-medium text-charcoal truncate w-full text-center">
+            <span className="text-xs font-medium text-charcoal dark:text-cream truncate w-full text-center">
               {dayLabel(day.date)}
             </span>
             <WeatherIcon iconName={wmo.icon} className={`w-7 h-7 ${iconColour}`} />
-            <span className="text-[11px] text-charcoal-light text-center leading-tight">
+            <span className="text-[11px] text-charcoal-light dark:text-dark-text-secondary text-center leading-tight">
               {day.weatherDescription}
             </span>
-            <div className="text-sm font-medium text-charcoal">
-              {day.tempMax}° <span className="text-charcoal-light font-normal">/ {day.tempMin}°</span>
+            <div className="text-sm font-medium text-charcoal dark:text-cream">
+              {day.tempMax}° <span className="text-charcoal-light dark:text-dark-text-secondary font-normal">/ {day.tempMin}°</span>
             </div>
             {day.precipProbability > 0 && (
               <div className="flex items-center gap-1 text-[11px] text-sage-dark">

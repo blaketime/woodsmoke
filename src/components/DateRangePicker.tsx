@@ -148,7 +148,7 @@ export default function DateRangePicker({ onDateRangeChange, dateRange }: DateRa
               setSelectingEnd(false)
               setOpen(false)
             }}
-            className="flex items-center gap-1 text-xs text-charcoal-light hover:text-charcoal transition-colors"
+            className="flex items-center gap-1 text-xs text-charcoal-light hover:text-charcoal hover:bg-black/5 rounded-full px-2 py-1 transition-colors cursor-pointer"
           >
             <X className="w-3.5 h-3.5" />
             Clear
@@ -205,11 +205,11 @@ export default function DateRangePicker({ onDateRangeChange, dateRange }: DateRa
               else if (inRange) wrapperBg = 'bg-sage/15'
 
               // Inner circle: the actual clickable day
-              let circleCls = 'text-charcoal hover:bg-cream-dark cursor-pointer'
-              if (disabled) circleCls = 'text-charcoal/20 cursor-default'
+              let circleCls = 'text-charcoal dark:text-cream hover:bg-cream-dark dark:hover:bg-dark-border cursor-pointer'
+              if (disabled) circleCls = 'text-charcoal/20 dark:text-cream/20 cursor-default'
               else if (isStart || isEnd || isSingle) circleCls = 'bg-sage text-white font-medium rounded-full'
-              else if (inRange) circleCls = 'text-charcoal hover:bg-sage/25 cursor-pointer'
-              else if (iso === todayStr) circleCls = 'font-semibold text-rust hover:bg-cream-dark cursor-pointer'
+              else if (inRange) circleCls = 'text-charcoal dark:text-cream hover:bg-sage/25 cursor-pointer'
+              else if (iso === todayStr) circleCls = 'font-semibold text-rust hover:bg-cream-dark dark:hover:bg-dark-border cursor-pointer'
 
               return (
                 <div key={iso} className={`h-9 flex items-center justify-center ${wrapperBg}`}>

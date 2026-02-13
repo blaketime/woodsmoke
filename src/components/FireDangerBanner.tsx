@@ -63,9 +63,9 @@ export default function FireDangerBanner({ forecast }: FireDangerBannerProps) {
   return (
     <div className={`flex items-start gap-3 px-4 py-3 rounded-xl ${config.bg} border ${config.border}`}>
       <Flame className={`w-5 h-5 ${config.colour} shrink-0 mt-0.5`} />
-      <p className="text-sm text-charcoal leading-relaxed">
+      <p className="text-sm text-charcoal dark:text-cream leading-relaxed">
         Fire Danger: <span className={`font-semibold ${config.colour}`}>{config.label}</span>
-        <span className="text-charcoal-light"> — {config.message}</span>
+        <span className="text-charcoal-light dark:text-dark-text-secondary"> — {config.message}</span>
       </p>
     </div>
   )

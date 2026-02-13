@@ -24,9 +24,10 @@ interface ParkMapProps {
   onDeselectPark: () => void
   userLocation: UserLocation | null
   distanceLookup: Record<string, number>
+  onMapLoad?: () => void
 }
 
-export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectPark, userLocation, distanceLookup }: ParkMapProps) {
+export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectPark, userLocation, distanceLookup, onMapLoad }: ParkMapProps) {
   const mapRef = useRef<MapRef>(null)
   const mapStyle = useMapStyle()
   const initialParkRef = useRef(selectedPark?.id ?? null)
@@ -59,7 +60,8 @@ export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectP
 
   const onLoad = useCallback(() => {
     updateBounds()
-  }, [updateBounds])
+    onMapLoad?.()
+  }, [updateBounds, onMapLoad])
 
   const handleMapClick = useCallback(() => {
     onDeselectPark()
@@ -135,8 +137,8 @@ export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectP
       maxBounds={[[-145, 40], [-50, 85]]}
     >
       {/* Custom scale — fixed, matches header controls */}
-      <div className="absolute bottom-4 left-4 z-10 bg-white/90 backdrop-blur-sm rounded-xl shadow-sm px-3 py-1.5">
-        <span className="text-xs font-medium text-charcoal-light">{scaleLabel}</span>
+      <div className="absolute bottom-4 left-4 z-10 bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm px-3 py-1.5">
+        <span className="text-xs font-medium text-charcoal-light dark:text-dark-text-secondary">{scaleLabel}</span>
       </div>
 
       {/* Custom map controls — matches header button style */}
@@ -144,7 +146,7 @@ export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectP
         <button
           type="button"
           onClick={() => mapRef.current?.getMap().zoomIn({ duration: 200 })}
-          className="bg-white/90 backdrop-blur-sm rounded-xl shadow-sm p-2.5 text-charcoal-light hover:text-charcoal transition-colors"
+          className="bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm p-2.5 text-charcoal-light dark:text-dark-text-secondary hover:text-charcoal dark:hover:text-cream hover:bg-gray-100 dark:hover:bg-white/10 transition-colors cursor-pointer"
           aria-label="Zoom in"
         >
           <Plus className="w-4 h-4" />
@@ -152,7 +154,7 @@ export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectP
         <button
           type="button"
           onClick={() => mapRef.current?.getMap().zoomOut({ duration: 200 })}
-          className="bg-white/90 backdrop-blur-sm rounded-xl shadow-sm p-2.5 text-charcoal-light hover:text-charcoal transition-colors"
+          className="bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm p-2.5 text-charcoal-light dark:text-dark-text-secondary hover:text-charcoal dark:hover:text-cream hover:bg-gray-100 dark:hover:bg-white/10 transition-colors cursor-pointer"
           aria-label="Zoom out"
         >
           <Minus className="w-4 h-4" />
