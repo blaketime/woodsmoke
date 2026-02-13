@@ -3,6 +3,7 @@ import { Search, SlidersHorizontal, X, MapPin } from 'lucide-react'
 import ParkMap from '../components/Map/ParkMap'
 import ParkPanel from '../components/ParkPanel'
 import FilterBar from '../components/FilterBar'
+import ThemeToggle from '../components/ThemeToggle'
 import parks from '../data/parks.json'
 import type { Park, Province, Amenity } from '../lib/types'
 import { getUserLocation, getDistance, type UserLocation } from '../lib/geolocation'
@@ -24,11 +25,21 @@ export default function Home() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [filtersExpanded, setFiltersExpanded] = useState(false)
+  const [mapLoaded, setMapLoaded] = useState(false)
+  const [loadingHidden, setLoadingHidden] = useState(false)
   const searchInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     getUserLocation().then(setUserLocation)
   }, [])
+
+  // Remove loading overlay from DOM after fade-out completes
+  useEffect(() => {
+    if (mapLoaded) {
+      const timer = setTimeout(() => setLoadingHidden(true), 600)
+      return () => clearTimeout(timer)
+    }
+  }, [mapLoaded])
 
   useEffect(() => {
     if (filtersOpen) {
@@ -117,16 +128,20 @@ export default function Home() {
         selectedPark ? 'sm:pr-[26rem]' : ''
       }`}>
         <div className="flex items-center justify-between gap-3">
-          <div className="pointer-events-auto bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl shadow-sm">
-            <h1 className="font-display text-xl text-charcoal">Woodsmoke</h1>
+          <div className="pointer-events-auto bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm px-4 py-2 rounded-xl shadow-sm">
+            <h1 className="font-display text-xl text-charcoal dark:text-cream">Woodsmoke</h1>
           </div>
 
           <div className="flex items-center gap-2 pointer-events-auto">
+            {/* Theme toggle */}
+            <div className="bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
+              <ThemeToggle />
+            </div>
             {/* Collapsible filters — pills expand inline to the left of the icon */}
-            <div className="flex items-center bg-white/90 backdrop-blur-sm rounded-xl shadow-sm">
+            <div className="flex items-center bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
               <div
                 className={`transition-[max-width,opacity,height] duration-300 ease-in-out ${
-                  filtersOpen ? 'max-w-[600px] opacity-100 h-9' : 'max-w-0 h-0 opacity-0'
+                  filtersOpen ? 'max-w-[800px] opacity-100 h-9' : 'max-w-0 h-0 opacity-0'
                 } ${filtersExpanded ? 'overflow-visible' : 'overflow-hidden'}`}
               >
                 <div className="flex items-center gap-2 px-3 py-1.5 whitespace-nowrap">
@@ -142,20 +157,15 @@ export default function Home() {
                     onNearbyOnlyChange={setNearbyOnly}
                     hasUserLocation={userLocation !== null}
                   />
-                  {hasActiveFilters && (
-                    <span className="text-xs text-charcoal-light bg-cream/60 px-2 py-0.5 rounded-full shrink-0">
-                      {filteredParks.length}
-                    </span>
-                  )}
                 </div>
               </div>
               <button
                 type="button"
                 onClick={() => setFiltersOpen(!filtersOpen)}
-                className={`relative p-2.5 transition-colors shrink-0 ${
+                className={`relative p-2.5 rounded-xl transition-colors cursor-pointer shrink-0 ${
                   filtersOpen || hasActiveFilters
-                    ? 'text-sage'
-                    : 'text-charcoal-light hover:text-charcoal'
+                    ? 'text-sage hover:bg-black/5 dark:hover:bg-white/5'
+                    : 'text-charcoal-light dark:text-dark-text-secondary hover:text-charcoal dark:hover:text-cream hover:bg-black/5 dark:hover:bg-white/5'
                 }`}
               >
                 <SlidersHorizontal className="w-4 h-4" />
@@ -170,7 +180,7 @@ export default function Home() {
 
             {/* Collapsible search */}
             <div className="relative">
-              <div className="flex items-center bg-white/90 backdrop-blur-sm rounded-xl shadow-sm">
+              <div className="flex items-center bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
                 <div
                   className={`overflow-hidden transition-all duration-300 ease-in-out ${
                     searchOpen ? 'w-40 sm:w-56' : 'w-0'
@@ -183,13 +193,13 @@ export default function Home() {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     onKeyDown={(e) => e.key === 'Escape' && closeSearch()}
-                    className="w-full pl-3 pr-1 py-2 text-xs text-charcoal placeholder:text-charcoal-light/50 focus:outline-none bg-transparent font-body"
+                    className="w-full pl-3 pr-1 py-2 text-xs text-charcoal dark:text-cream placeholder:text-charcoal-light/50 dark:placeholder:text-dark-text-secondary/50 focus:outline-none bg-transparent font-body"
                   />
                 </div>
                 <button
                   type="button"
                   onClick={() => (searchOpen ? closeSearch() : setSearchOpen(true))}
-                  className="p-2.5 text-charcoal-light hover:text-charcoal transition-colors shrink-0"
+                  className="p-2.5 rounded-xl text-charcoal-light dark:text-dark-text-secondary hover:text-charcoal dark:hover:text-cream hover:bg-black/5 dark:hover:bg-white/5 transition-colors cursor-pointer shrink-0"
                 >
                   {searchOpen ? <X className="w-4 h-4" /> : <Search className="w-4 h-4" />}
                 </button>
@@ -197,18 +207,18 @@ export default function Home() {
 
               {/* Search results dropdown */}
               {searchOpen && searchResults.length > 0 && (
-                <div className="absolute top-full right-0 mt-2 w-72 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-cream-dark/30 py-1 max-h-80 overflow-y-auto z-50">
+                <div className="absolute top-full right-0 mt-2 w-72 bg-white/95 dark:bg-dark-surface/95 backdrop-blur-sm rounded-xl shadow-lg border border-cream-dark/30 dark:border-dark-border/30 py-1 max-h-80 overflow-y-auto z-50">
                   {searchResults.map((park) => (
                     <button
                       key={park.id}
                       type="button"
                       onClick={() => selectParkFromSearch(park)}
-                      className="w-full text-left px-3 py-2.5 hover:bg-cream/80 transition-colors flex items-center gap-2.5 cursor-pointer"
+                      className="w-full text-left px-3 py-2.5 hover:bg-cream/80 dark:hover:bg-dark-surface/80 transition-colors flex items-center gap-2.5 cursor-pointer"
                     >
                       <MapPin className={`w-3.5 h-3.5 shrink-0 ${park.type === 'national' ? 'text-sage' : 'text-brown'}`} />
                       <div className="min-w-0">
-                        <div className="text-xs font-medium text-charcoal truncate">{park.name}</div>
-                        <div className="text-[10px] text-charcoal-light/70">{park.province}</div>
+                        <div className="text-xs font-medium text-charcoal dark:text-cream truncate">{park.name}</div>
+                        <div className="text-[10px] text-charcoal-light/70 dark:text-dark-text-secondary/70">{park.province}</div>
                       </div>
                       <span className={`ml-auto text-[9px] font-medium uppercase tracking-wide px-1.5 py-0.5 rounded-full shrink-0 ${
                         park.type === 'national'
@@ -238,6 +248,7 @@ export default function Home() {
           }}
           userLocation={userLocation}
           distanceLookup={distanceLookup}
+          onMapLoad={() => setMapLoaded(true)}
         />
       </div>
 
@@ -251,6 +262,24 @@ export default function Home() {
           }}
           distance={distanceLookup[selectedPark.id]}
         />
+      )}
+
+      {/* Loading overlay */}
+      {!loadingHidden && (
+        <div
+          className={`absolute inset-0 z-50 flex flex-col items-center justify-center bg-cream dark:bg-dark-bg transition-opacity duration-500 ${
+            mapLoaded ? 'opacity-0 pointer-events-none' : 'opacity-100'
+          }`}
+        >
+          <h1 className="font-display text-4xl text-charcoal dark:text-cream mb-3">Woodsmoke</h1>
+          <div className="flex items-center gap-2 text-charcoal-light dark:text-dark-text-secondary">
+            <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+            </svg>
+            <span className="text-sm font-body">Loading map&hellip;</span>
+          </div>
+        </div>
       )}
     </div>
   )
