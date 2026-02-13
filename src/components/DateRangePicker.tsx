@@ -130,15 +130,15 @@ export default function DateRangePicker({ onDateRangeChange, dateRange }: DateRa
               setViewMonth(d.getMonth())
             }
           }}
-          className="flex items-center gap-2 px-3 py-2 rounded-xl border border-cream-dark bg-white text-sm text-charcoal hover:border-sage/50 transition-colors"
+          className="flex items-center gap-2 px-3 py-2 rounded-xl border border-cream-dark dark:border-dark-border bg-white dark:bg-dark-surface text-sm text-charcoal dark:text-cream hover:border-sage/50 transition-colors"
         >
-          <CalendarDays className="w-4 h-4 text-charcoal-light" />
+          <CalendarDays className="w-4 h-4 text-charcoal-light dark:text-cream/60" />
           {hasRange ? (
             <span>
               {formatDisplay(dateRange.startDate)} — {formatDisplay(dateRange.endDate)}
             </span>
           ) : (
-            <span className="text-charcoal-light">Select trip dates</span>
+            <span className="text-charcoal-light dark:text-cream/60">Select trip dates</span>
           )}
         </button>
         {dateRange && (
@@ -148,7 +148,7 @@ export default function DateRangePicker({ onDateRangeChange, dateRange }: DateRa
               setSelectingEnd(false)
               setOpen(false)
             }}
-            className="flex items-center gap-1 text-xs text-charcoal-light hover:text-charcoal hover:bg-black/5 rounded-full px-2 py-1 transition-colors cursor-pointer"
+            className="flex items-center gap-1 text-xs text-charcoal-light dark:text-cream/60 hover:text-charcoal dark:hover:text-cream hover:bg-black/5 dark:hover:bg-white/10 rounded-full px-2 py-1 transition-colors cursor-pointer"
           >
             <X className="w-3.5 h-3.5" />
             Clear
@@ -157,33 +157,33 @@ export default function DateRangePicker({ onDateRangeChange, dateRange }: DateRa
       </div>
 
       {open && (
-        <div className="absolute top-full left-0 right-0 sm:right-auto mt-2 z-20 bg-white rounded-2xl shadow-lg border border-cream-dark p-4 sm:w-[320px]">
+        <div className="absolute top-full left-0 right-0 sm:right-auto mt-2 z-20 bg-white dark:bg-dark-surface rounded-2xl shadow-lg border border-cream-dark dark:border-dark-border p-4 sm:w-[320px]">
           {/* Month nav */}
           <div className="flex items-center justify-between mb-3">
             <button
               onClick={prevMonth}
-              className="p-1 rounded-lg hover:bg-cream-dark text-charcoal-light hover:text-charcoal transition-colors"
+              className="p-1 rounded-lg hover:bg-cream-dark dark:hover:bg-dark-border text-charcoal-light dark:text-cream/60 hover:text-charcoal dark:hover:text-cream transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
-            <span className="text-sm font-medium text-charcoal">{monthLabel}</span>
+            <span className="text-sm font-medium text-charcoal dark:text-cream">{monthLabel}</span>
             <button
               onClick={nextMonth}
-              className="p-1 rounded-lg hover:bg-cream-dark text-charcoal-light hover:text-charcoal transition-colors"
+              className="p-1 rounded-lg hover:bg-cream-dark dark:hover:bg-dark-border text-charcoal-light dark:text-cream/60 hover:text-charcoal dark:hover:text-cream transition-colors"
             >
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
 
           {/* Hint */}
-          <p className="text-[11px] text-charcoal-light text-center mb-2">
+          <p className="text-[11px] text-charcoal-light dark:text-cream/50 text-center mb-2">
             {selectingEnd && dateRange ? 'Select end date' : 'Select start date'}
           </p>
 
           {/* Weekday headers */}
           <div className="grid grid-cols-7 gap-0 mb-1">
             {['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'].map((d) => (
-              <div key={d} className="text-[10px] font-medium text-charcoal-light text-center py-1">
+              <div key={d} className="text-[10px] font-medium text-charcoal-light dark:text-cream/50 text-center py-1">
                 {d}
               </div>
             ))}
@@ -200,16 +200,16 @@ export default function DateRangePicker({ onDateRangeChange, dateRange }: DateRa
 
               // Outer wrapper: carries the range band background
               let wrapperBg = ''
-              if (isStart) wrapperBg = 'bg-gradient-to-r from-transparent from-50% to-sage/15 to-50%'
-              else if (isEnd) wrapperBg = 'bg-gradient-to-l from-transparent from-50% to-sage/15 to-50%'
-              else if (inRange) wrapperBg = 'bg-sage/15'
+              if (isStart) wrapperBg = 'bg-gradient-to-r from-transparent from-50% to-sage/15 dark:to-sage/25 to-50%'
+              else if (isEnd) wrapperBg = 'bg-gradient-to-l from-transparent from-50% to-sage/15 dark:to-sage/25 to-50%'
+              else if (inRange) wrapperBg = 'bg-sage/15 dark:bg-sage/25'
 
               // Inner circle: the actual clickable day
               let circleCls = 'text-charcoal dark:text-cream hover:bg-cream-dark dark:hover:bg-dark-border cursor-pointer'
               if (disabled) circleCls = 'text-charcoal/20 dark:text-cream/20 cursor-default'
               else if (isStart || isEnd || isSingle) circleCls = 'bg-sage text-white font-medium rounded-full'
               else if (inRange) circleCls = 'text-charcoal dark:text-cream hover:bg-sage/25 cursor-pointer'
-              else if (iso === todayStr) circleCls = 'font-semibold text-rust hover:bg-cream-dark dark:hover:bg-dark-border cursor-pointer'
+              else if (iso === todayStr) circleCls = 'font-semibold text-rust dark:text-rust hover:bg-cream-dark dark:hover:bg-dark-border cursor-pointer'
 
               return (
                 <div key={iso} className={`h-9 flex items-center justify-center ${wrapperBg}`}>

@@ -57,6 +57,14 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', effectiveMode === 'dark')
+
+    // Swap favicon to match theme
+    const faviconHref = effectiveMode === 'dark' ? '/favicon-dark.svg' : '/favicon-light.svg'
+    const icons = document.querySelectorAll<HTMLLinkElement>('link[rel="icon"]')
+    icons.forEach(icon => {
+      icon.href = faviconHref
+      icon.removeAttribute('media')
+    })
   }, [effectiveMode])
 
   return (
