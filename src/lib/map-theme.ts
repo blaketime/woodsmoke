@@ -221,3 +221,190 @@ export const themeOverrides: Record<string, LayerOverride> = {
     paint: { 'text-color': '#6A6A6A', 'text-halo-color': '#F8F6F1', 'text-halo-width': 1.5 },
   },
 }
+
+export const themeOverridesDark: Record<string, LayerOverride> = {
+  // ── Background ───────────────────────────────────────────────
+  background: {
+    paint: { 'background-color': '#2A2826' },
+  },
+
+  // ── Natural earth raster — HIDDEN ────────────────────────────
+  natural_earth: {
+    layout: { visibility: 'none' },
+  },
+
+  // ── Hidden pattern/texture layers ────────────────────────────
+  'building-3d': { layout: { visibility: 'none' } },
+  landcover_wetland: { layout: { visibility: 'none' } },
+  road_area_pattern: { layout: { visibility: 'none' } },
+
+  // ── Water — pure black ────────────────────────────────────────
+  water: { paint: { 'fill-color': '#000000' } },
+  waterway_tunnel: { paint: { 'line-color': '#0A0A0A' } },
+  waterway_river: { paint: { 'line-color': '#0A0A0A' } },
+  waterway_other: { paint: { 'line-color': '#0A0A0A' } },
+
+  // ── Water labels ──────────────────────────────────────────────
+  waterway_line_label: { paint: { 'text-color': '#4A6A7A' } },
+  water_name_point_label: {
+    paint: { 'text-color': '#4A6A7A', 'text-halo-color': '#000000', 'text-halo-width': 1.5 },
+  },
+  water_name_line_label: {
+    paint: { 'text-color': '#4A6A7A', 'text-halo-color': '#000000', 'text-halo-width': 1.5 },
+  },
+
+  // ── Parks / landcover ─────────────────────────────────────────
+  park: { paint: { 'fill-color': 'rgba(135,148,111,0.12)', 'fill-opacity': 1 } },
+  park_outline: { paint: { 'line-color': 'rgba(135,148,111,0.15)' } },
+  landcover_wood: { paint: { 'fill-color': 'hsla(90,20%,55%,0.08)', 'fill-opacity': 1 } },
+  landcover_grass: { paint: { 'fill-color': 'rgba(135,148,111,0.08)', 'fill-opacity': 1 } },
+  landcover_ice: { paint: { 'fill-color': 'rgba(60,65,65,0.5)' } },
+  landcover_sand: { paint: { 'fill-color': 'rgba(55,50,40,0.4)' } },
+  landuse_cemetery: { paint: { 'fill-color': 'rgba(50,55,45,0.3)' } },
+  landuse_hospital: { paint: { 'fill-color': 'rgba(55,45,45,0.3)' } },
+  landuse_school: { paint: { 'fill-color': 'rgba(50,48,40,0.3)' } },
+  landuse_pitch: { paint: { 'fill-color': 'rgba(45,48,40,0.3)' } },
+  landuse_track: { paint: { 'fill-color': 'rgba(45,48,40,0.3)' } },
+  landuse_residential: { paint: { 'fill-color': 'hsla(35,10%,18%,0.3)' } },
+
+  // ── Roads (subtle light on dark) ──────────────────────────────
+  road_motorway: { paint: { 'line-color': '#3A3836' } },
+  road_trunk_primary: { paint: { 'line-color': '#353330' } },
+  road_secondary_tertiary: { paint: { 'line-color': '#353330' } },
+  road_minor: { paint: { 'line-color': '#32302E' } },
+  road_link: { paint: { 'line-color': '#353330' } },
+  road_service_track: { paint: { 'line-color': '#32302E' } },
+  road_path_pedestrian: { paint: { 'line-color': '#302E2C' } },
+  road_motorway_link: { paint: { 'line-color': '#3A3836' } },
+
+  // ── Road casings ──────────────────────────────────────────────
+  road_motorway_casing: { paint: { 'line-color': '#424038' } },
+  road_trunk_primary_casing: { paint: { 'line-color': '#424038' } },
+  road_secondary_tertiary_casing: { paint: { 'line-color': '#3E3C36' } },
+  road_minor_casing: { paint: { 'line-color': '#3A3836' } },
+  road_link_casing: { paint: { 'line-color': '#424038' } },
+  road_service_track_casing: { paint: { 'line-color': '#3A3836' } },
+  road_motorway_link_casing: { paint: { 'line-color': '#424038' } },
+
+  // ── Tunnels ───────────────────────────────────────────────────
+  tunnel_motorway: { paint: { 'line-color': '#343230' } },
+  tunnel_trunk_primary: { paint: { 'line-color': '#302E2C' } },
+  tunnel_secondary_tertiary: { paint: { 'line-color': '#302E2C' } },
+  tunnel_minor: { paint: { 'line-color': '#2E2C2A' } },
+  tunnel_motorway_link: { paint: { 'line-color': '#343230' } },
+  tunnel_service_track: { paint: { 'line-color': '#2E2C2A' } },
+  tunnel_link: { paint: { 'line-color': '#302E2C' } },
+  tunnel_path_pedestrian: { paint: { 'line-color': '#2E2C2A' } },
+
+  // ── Tunnel casings ────────────────────────────────────────────
+  tunnel_motorway_casing: { paint: { 'line-color': '#3E3C36' } },
+  tunnel_trunk_primary_casing: { paint: { 'line-color': '#3E3C36' } },
+  tunnel_secondary_tertiary_casing: { paint: { 'line-color': '#3A3836' } },
+  tunnel_minor_casing: { paint: { 'line-color': '#343230' } },
+  tunnel_link_casing: { paint: { 'line-color': '#3E3C36' } },
+  tunnel_service_track_casing: { paint: { 'line-color': '#343230' } },
+
+  // ── Bridges ───────────────────────────────────────────────────
+  bridge_motorway: { paint: { 'line-color': '#3A3836' } },
+  bridge_trunk_primary: { paint: { 'line-color': '#353330' } },
+  bridge_secondary_tertiary: { paint: { 'line-color': '#353330' } },
+  bridge_street: { paint: { 'line-color': '#32302E' } },
+  bridge_link: { paint: { 'line-color': '#353330' } },
+  bridge_service_track: { paint: { 'line-color': '#32302E' } },
+  bridge_motorway_link: { paint: { 'line-color': '#3A3836' } },
+  bridge_path_pedestrian: { paint: { 'line-color': '#302E2C' } },
+
+  // ── Bridge casings ────────────────────────────────────────────
+  bridge_motorway_casing: { paint: { 'line-color': '#424038' } },
+  bridge_trunk_primary_casing: { paint: { 'line-color': '#424038' } },
+  bridge_secondary_tertiary_casing: { paint: { 'line-color': '#3E3C36' } },
+  bridge_street_casing: { paint: { 'line-color': '#3A3836' } },
+  bridge_link_casing: { paint: { 'line-color': '#424038' } },
+  bridge_service_track_casing: { paint: { 'line-color': '#3A3836' } },
+  bridge_motorway_link_casing: { paint: { 'line-color': '#424038' } },
+  bridge_path_pedestrian_casing: { paint: { 'line-color': '#3A3836' } },
+
+  // ── Rail ──────────────────────────────────────────────────────
+  road_major_rail: { paint: { 'line-color': '#484640' } },
+  road_transit_rail: { paint: { 'line-color': '#484640' } },
+  road_major_rail_hatching: { paint: { 'line-color': '#484640' } },
+  road_transit_rail_hatching: { paint: { 'line-color': '#484640' } },
+  tunnel_major_rail: { paint: { 'line-color': '#403E38' } },
+  tunnel_transit_rail: { paint: { 'line-color': '#403E38' } },
+  tunnel_major_rail_hatching: { paint: { 'line-color': '#403E38' } },
+  tunnel_transit_rail_hatching: { paint: { 'line-color': '#403E38' } },
+  bridge_major_rail: { paint: { 'line-color': '#484640' } },
+  bridge_transit_rail: { paint: { 'line-color': '#484640' } },
+  bridge_major_rail_hatching: { paint: { 'line-color': '#484640' } },
+  bridge_transit_rail_hatching: { paint: { 'line-color': '#484640' } },
+
+  // ── Aeroways ──────────────────────────────────────────────────
+  aeroway_fill: { paint: { 'fill-color': 'rgba(50,48,44,0.4)' } },
+  aeroway_runway: { paint: { 'line-color': '#3E3C38' } },
+  aeroway_taxiway: { paint: { 'line-color': '#3E3C38' } },
+
+  // ── Buildings ─────────────────────────────────────────────────
+  building: { paint: { 'fill-color': '#343230' } },
+
+  // ── Boundaries (lightened brown) ──────────────────────────────
+  boundary_2: { paint: { 'line-color': '#A6916F' } },
+  boundary_3: { paint: { 'line-color': 'rgba(166,145,111,0.5)' } },
+  boundary_disputed: { paint: { 'line-color': '#A6916F' } },
+
+  // ── Country labels ────────────────────────────────────────────
+  label_country_1: {
+    paint: { 'text-color': '#D0C8B8', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_country_2: {
+    paint: { 'text-color': '#D0C8B8', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_country_3: {
+    paint: { 'text-color': '#B8B0A0', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+
+  // ── City / state labels ───────────────────────────────────────
+  label_city_capital: {
+    paint: { 'text-color': '#D0C8B8', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_city: {
+    paint: { 'text-color': '#B8B0A0', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_state: {
+    paint: { 'text-color': '#908878', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_town: {
+    paint: { 'text-color': '#A8A090', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_village: {
+    paint: { 'text-color': '#908878', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  label_other: {
+    paint: { 'text-color': '#787068', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+
+  // ── POI / road labels ─────────────────────────────────────────
+  poi_r1: {
+    paint: { 'text-color': '#787068', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  poi_r7: {
+    paint: { 'text-color': '#787068', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  poi_r20: {
+    paint: { 'text-color': '#787068', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  poi_transit: {
+    paint: { 'text-color': '#4A6A7A', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  airport: {
+    paint: { 'text-color': '#787068', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  'highway-name-path': {
+    paint: { 'text-color': '#A6916F', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  'highway-name-minor': {
+    paint: { 'text-color': '#787068', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+  'highway-name-major': {
+    paint: { 'text-color': '#908878', 'text-halo-color': '#2A2826', 'text-halo-width': 1.5 },
+  },
+}
