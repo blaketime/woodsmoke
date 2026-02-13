@@ -11,7 +11,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Banff",
+    "bookingUrl": "https://parks.canada.ca/pn-np/ab/banff/activ/camping",
     "campgrounds": [
       {
         "name": "Tunnel Mountain Village",
@@ -79,7 +79,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Jasper",
+    "bookingUrl": "https://parks.canada.ca/pn-np/ab/jasper/activ/passez-stay/camping",
     "campgrounds": [
       {
         "name": "Whistlers",
@@ -134,7 +134,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/PacificRim",
+    "bookingUrl": "https://parks.canada.ca/pn-np/bc/pacificrim/activ/camping",
     "campgrounds": [
       {
         "name": "Green Point",
@@ -171,7 +171,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Yoho",
+    "bookingUrl": "https://parks.canada.ca/pn-np/bc/yoho/activ/camping",
     "campgrounds": [
       {
         "name": "Kicking Horse",
@@ -208,7 +208,7 @@
       "open": "2026-05-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Kootenay",
+    "bookingUrl": "https://parks.canada.ca/pn-np/bc/kootenay/activ/camping",
     "campgrounds": [
       {
         "name": "Redstreak",
@@ -245,7 +245,7 @@
       "open": "2026-06-15",
       "close": "2026-09-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Glacier",
+    "bookingUrl": "https://parks.canada.ca/pn-np/bc/glacier/activ/passez-stay/camping",
     "campgrounds": [
       {
         "name": "Illecillewaet",
@@ -281,7 +281,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Waterton",
+    "bookingUrl": "https://parks.canada.ca/pn-np/ab/waterton/activ/camping",
     "campgrounds": [
       {
         "name": "Townsite",
@@ -320,7 +320,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/GrosMorne",
+    "bookingUrl": "https://parks.canada.ca/pn-np/nl/grosmorne/activ/camping",
     "campgrounds": [
       {
         "name": "Berry Hill",
@@ -369,7 +369,7 @@
       "open": "2026-05-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/CapeBreton",
+    "bookingUrl": "https://parks.canada.ca/pn-np/ns/cbreton/activ/camping",
     "campgrounds": [
       {
         "name": "Chéticamp",
@@ -423,7 +423,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Fundy",
+    "bookingUrl": "https://parks.canada.ca/pn-np/nb/fundy/activ/camping",
     "campgrounds": [
       {
         "name": "Headquarters",
@@ -476,7 +476,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/PEI",
+    "bookingUrl": "https://parks.canada.ca/pn-np/pe/pei-ipe/activ/camping",
     "campgrounds": [
       {
         "name": "Cavendish",
@@ -528,7 +528,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/LaMauricie",
+    "bookingUrl": "https://parks.canada.ca/pn-np/qc/mauricie/activ/camping",
     "campgrounds": [
       {
         "name": "Wapizagonke",
@@ -581,7 +581,7 @@
       "open": "2026-06-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Forillon",
+    "bookingUrl": "https://parks.canada.ca/pn-np/qc/forillon/activ/camping",
     "campgrounds": [
       {
         "name": "Des-Rosiers",
@@ -619,7 +619,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/BrucePeninsula",
+    "bookingUrl": "https://parks.canada.ca/pn-np/on/bruce/activ/camping",
     "campgrounds": [
       {
         "name": "Cyprus Lake",
@@ -658,7 +658,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/ThousandIslands",
+    "bookingUrl": "https://parks.canada.ca/pn-np/on/1000/activ/camping",
     "campgrounds": [
       {
         "name": "Mallorytown Landing",
@@ -697,7 +697,7 @@
       "open": "2026-04-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/PointPelee",
+    "bookingUrl": "https://parks.canada.ca/pn-np/on/pelee/activ/otentik",
     "campgrounds": [],
     "activities": [
       "hiking",
@@ -722,7 +722,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/RidingMountain",
+    "bookingUrl": "https://parks.canada.ca/pn-np/mb/riding/activ/camping",
     "campgrounds": [
       {
         "name": "Wasagaming",
@@ -777,7 +777,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/PrinceAlbert",
+    "bookingUrl": "https://parks.canada.ca/pn-np/sk/princealbert/activ/camping",
     "campgrounds": [
       {
         "name": "Beaver Glen",
@@ -816,7 +816,7 @@
       "open": "2026-05-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Kejimkujik",
+    "bookingUrl": "https://parks.canada.ca/pn-np/ns/kejimkujik/activ/camping",
     "campgrounds": [
       {
         "name": "Jeremy's Bay",
@@ -859,7 +859,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Algonquin",
+    "bookingUrl": "https://www.ontarioparks.ca/park/algonquin",
     "campgrounds": [
       {
         "name": "Mew Lake",
@@ -929,7 +929,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Killarney",
+    "bookingUrl": "https://www.ontarioparks.ca/park/killarney",
     "campgrounds": [
       {
         "name": "George Lake",
@@ -969,7 +969,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/BonEcho",
+    "bookingUrl": "https://www.ontarioparks.ca/park/bonecho",
     "campgrounds": [
       {
         "name": "Mazinaw Lake",
@@ -1010,7 +1010,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Sandbanks",
+    "bookingUrl": "https://www.ontarioparks.ca/park/sandbanks",
     "campgrounds": [
       {
         "name": "Outlet River",
@@ -1062,7 +1062,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://ncc-ccn.gc.ca/places/gatineau-park-camping",
+    "bookingUrl": "https://reservations.ncc-ccn.gc.ca/",
     "campgrounds": [
       {
         "name": "Lac Philippe",
@@ -1116,7 +1116,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/mot/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-du-mont-tremblant",
     "campgrounds": [
       {
         "name": "Lac Chat",
@@ -1159,7 +1159,7 @@
       "open": "2026-05-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/jac/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-de-la-jacques-cartier",
     "campgrounds": [
       {
         "name": "Les Alluvions",
@@ -1196,7 +1196,7 @@
       "open": "2026-06-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://bcparks.ca/garibaldi-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483609&mapId=-2147483578&bookingCategoryId=4&searchTabGroupId=3",
     "campgrounds": [
       {
         "name": "Garibaldi Lake",
@@ -1241,7 +1241,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/wells-gray-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?mapId=-2147483375&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Clearwater Lake",
@@ -1291,7 +1291,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://bcparks.ca/manning-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483618&mapId=-2147483601&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Lightning Lake",
@@ -1347,7 +1347,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.gov.mb.ca/sd/parks/whiteshell.html",
+    "bookingUrl": "https://manitoba.goingtocamp.com/",
     "campgrounds": [
       {
         "name": "Big Whiteshell Lake",
@@ -1401,7 +1401,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.tourismsaskatchewan.com/listings/cypress-hills-interprovincial-park",
+    "bookingUrl": "https://parks.saskatchewan.ca/camping/cypress-hills-interprovincial-park/r/campgroundDetails.do?contractCode=SKPP&parkId=290125",
     "campgrounds": [
       {
         "name": "Centre Block",
@@ -1440,7 +1440,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/dinosaur/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/dinosaur-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330136",
     "campgrounds": [
       {
         "name": "Dinosaur Campground",
@@ -1478,7 +1478,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/peter-lougheed/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/peter-lougheed-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330124",
     "campgrounds": [
       {
         "name": "Boulton Creek",
@@ -1531,7 +1531,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/strathcona-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483527&mapId=-2147483399&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Buttle Lake",
@@ -1571,7 +1571,7 @@
       "open": "2026-06-15",
       "close": "2026-09-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Nahanni",
+    "bookingUrl": "https://parks.canada.ca/pn-np/nt/nahanni/visit/inscription-registration",
     "campgrounds": [
       {
         "name": "Virginia Falls",
@@ -1606,7 +1606,7 @@
       "open": "2026-06-01",
       "close": "2026-09-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/Kluane",
+    "bookingUrl": "https://parks.canada.ca/pn-np/yt/kluane/activ/camping",
     "campgrounds": [
       {
         "name": "Kathleen Lake",
@@ -1645,7 +1645,7 @@
       "open": "2026-06-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://bcparks.ca/mount-robson-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483642&mapId=-2147483635&searchTabGroupId=3&bookingCategoryId=4&nights=1&isReserving=true&partySize=1&equipmentCapacity=1",
     "campgrounds": [
       {
         "name": "Robson Meadows",
@@ -1695,7 +1695,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://bcparks.ca/golden-ears-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483606&mapId=-2147483576&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Alouette",
@@ -1750,7 +1750,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://bcparks.ca/bowron-lake-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483638&mapId=-2147483362&bookingCategoryId=11&searchTabGroupId=5",
     "campgrounds": [
       {
         "name": "Bowron Lake",
@@ -1786,7 +1786,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/joffre-lakes-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483597&mapId=-2147483548&searchTabGroupId=3&bookingCategoryId=4&nights=1&isReserving=true&partySize=1&equipmentCapacity=1",
     "campgrounds": [
       {
         "name": "Upper Joffre Lake",
@@ -1818,7 +1818,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://bcparks.ca/juan-de-fuca-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483596&mapId=-2147483547&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "China Beach",
@@ -1886,7 +1886,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/ElkIsland",
+    "bookingUrl": "https://parks.canada.ca/pn-np/ab/elkisland/activ/camping",
     "campgrounds": [
       {
         "name": "Astotin Lake",
@@ -1927,7 +1927,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/writing-on-stone/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/writingonstone-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330139",
     "campgrounds": [
       {
         "name": "Writing-on-Stone Campground",
@@ -1966,7 +1966,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://www.albertaparks.ca/bow-valley/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/bow-valley-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330258",
     "campgrounds": [
       {
         "name": "Bow Valley",
@@ -2021,7 +2021,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/william-a-switzer/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/william-a-switzer-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330112",
     "campgrounds": [
       {
         "name": "Gregg Lake",
@@ -2074,7 +2074,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/crimson-lake/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/crimson-lake-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330104",
     "campgrounds": [
       {
         "name": "Crimson Lake Campground",
@@ -2115,7 +2115,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://www.albertaparks.ca/spray-valley/",
+    "bookingUrl": "https://www.albertaparks.ca/parks/kananaskis/spray-valley-pp/",
     "campgrounds": [
       {
         "name": "Spray Lakes West",
@@ -2152,7 +2152,7 @@
       "open": "2026-05-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Quetico",
+    "bookingUrl": "https://www.ontarioparks.ca/park/quetico",
     "campgrounds": [
       {
         "name": "Dawson Trail",
@@ -2189,7 +2189,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Frontenac",
+    "bookingUrl": "https://www.ontarioparks.ca/park/frontenac",
     "campgrounds": [
       {
         "name": "Interior Sites",
@@ -2225,7 +2225,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/GrundyLake",
+    "bookingUrl": "https://www.ontarioparks.ca/park/grundylake",
     "campgrounds": [
       {
         "name": "Grundy Lake",
@@ -2267,7 +2267,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Awenda",
+    "bookingUrl": "https://www.ontarioparks.ca/park/awenda",
     "campgrounds": [
       {
         "name": "Awenda Campground",
@@ -2309,7 +2309,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Pinery",
+    "bookingUrl": "https://www.ontarioparks.ca/park/pinery",
     "campgrounds": [
       {
         "name": "Riverside",
@@ -2363,7 +2363,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Arrowhead",
+    "bookingUrl": "https://www.ontarioparks.ca/park/arrowhead",
     "campgrounds": [
       {
         "name": "Arrowhead Campground",
@@ -2405,7 +2405,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/LakeSuperior",
+    "bookingUrl": "https://www.ontarioparks.ca/park/lakesuperior",
     "campgrounds": [
       {
         "name": "Agawa Bay",
@@ -2458,7 +2458,7 @@
       "open": "2026-06-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/gas/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-de-la-gaspesie",
     "campgrounds": [
       {
         "name": "Mont-Albert",
@@ -2496,7 +2496,7 @@
       "open": "2026-05-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/bic/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-du-bic",
     "campgrounds": [
       {
         "name": "Rivière-du-Sud-Ouest",
@@ -2534,7 +2534,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/oka/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-d-oka",
     "campgrounds": [
       {
         "name": "Oka Campground",
@@ -2576,7 +2576,7 @@
       "open": "2026-06-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/hgo/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-des-hautes-gorges-de-la-riviere-malbaie",
     "campgrounds": [
       {
         "name": "Équerre",
@@ -2613,7 +2613,7 @@
       "open": "2026-05-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/sag/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-du-fjord-du-saguenay",
     "campgrounds": [
       {
         "name": "Baie-Sainte-Marguerite",
@@ -2662,7 +2662,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.sepaq.com/pq/mor/",
+    "bookingUrl": "https://www.sepaq.com/en/reservation/camping/parc-national-du-mont-orford",
     "campgrounds": [
       {
         "name": "Stukely",
@@ -2705,7 +2705,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://parks.novascotia.ca/park/cape-chignecto",
+    "bookingUrl": "https://novascotia.goingtocamp.com/CapeChignectoProvincialPark",
     "campgrounds": [
       {
         "name": "Red Rocks",
@@ -2740,7 +2740,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://parks.novascotia.ca/park/blomidon",
+    "bookingUrl": "https://novascotia.goingtocamp.com/BlomidonProvincialPark",
     "campgrounds": [
       {
         "name": "Blomidon Campground",
@@ -2776,7 +2776,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://parks.novascotia.ca/park/five-islands",
+    "bookingUrl": "https://novascotia.goingtocamp.com/FiveIslandsProvincialPark",
     "campgrounds": [
       {
         "name": "Five Islands Campground",
@@ -2838,7 +2838,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://parks.novascotia.ca/park/thomas-raddall",
+    "bookingUrl": "https://novascotia.goingtocamp.com/ThomasRaddallProvincialPark",
     "campgrounds": [
       {
         "name": "Thomas Raddall Campground",
@@ -2874,7 +2874,7 @@
       "open": "2026-06-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://bcparks.ca/mount-assiniboine-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483569&mapId=-2147483480&bookingCategoryId=4&searchTabGroupId=3",
     "campgrounds": [
       {
         "name": "Lake Magog",
@@ -2908,7 +2908,7 @@
       "open": "2026-07-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://bcparks.ca/cathedral-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483630&mapId=-2147483276&searchTabGroupId=3&bookingCategoryId=6&nights=1&isReserving=true&partySize=1&accessPointResourceId=-2147474048",
     "campgrounds": [
       {
         "name": "Quiniscoe Lake",
@@ -2950,7 +2950,7 @@
       "open": "2026-04-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://bcparks.ca/rathtrevor-beach-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483545&mapId=-2147483437&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Rathtrevor Beach",
@@ -2990,7 +2990,7 @@
       "open": "2026-06-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://bcparks.ca/tweedsmuir-south-park/",
+    "bookingUrl": "https://camping.bcparks.ca/",
     "campgrounds": [
       {
         "name": "Atnarko River",
@@ -3026,7 +3026,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/kokanee-creek-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?mapId=-2147483528&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1&equipmentCapacity=1&resourceLocationId=-2147483589",
     "campgrounds": [
       {
         "name": "Sandspit",
@@ -3080,7 +3080,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://bcparks.ca/okanagan-lake-park/",
+    "bookingUrl": "https://camping.bcparks.ca/",
     "campgrounds": [
       {
         "name": "North",
@@ -3134,7 +3134,7 @@
       "open": "2026-04-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/miracle-beach-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483575&mapId=-2147483492&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Miracle Beach",
@@ -3175,7 +3175,7 @@
       "open": "2026-06-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/stein-valley-park/",
+    "bookingUrl": "https://bcparks.ca/stein-valley-nlakapamux-heritage-park/",
     "campgrounds": [
       {
         "name": "Stein River",
@@ -3207,7 +3207,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://bcparks.ca/sasquatch-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483539&mapId=-2147483420&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Hicks Lake",
@@ -3259,7 +3259,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://bcparks.ca/nairn-falls-park/",
+    "bookingUrl": "https://camping.bcparks.ca/create-booking/results?resourceLocationId=-2147483564&mapId=-2147483471&searchTabGroupId=0&bookingCategoryId=0&nights=1&isReserving=true&equipmentId=-32768&subEquipmentId=-32768&partySize=1",
     "campgrounds": [
       {
         "name": "Nairn Falls",
@@ -3295,7 +3295,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/dry-island-buffalo-jump/",
+    "bookingUrl": "https://www.albertaparks.ca/parks/central/dry-island-buffalo-jump-pp/",
     "campgrounds": [
       {
         "name": "Tolman Badlands",
@@ -3329,7 +3329,7 @@
       "open": "2026-05-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://www.albertaparks.ca/lesser-slave-lake/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/lesser-slave-lake-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330134",
     "campgrounds": [
       {
         "name": "Marten Beach",
@@ -3370,7 +3370,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/aspen-beach/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/aspen-beach-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330101",
     "campgrounds": [
       {
         "name": "Lakeview",
@@ -3411,7 +3411,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/beauvais-lake/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/beauvais-lake-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330290",
     "campgrounds": [
       {
         "name": "Beauvais Lake",
@@ -3450,7 +3450,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/chain-lakes/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/chain-lakes-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330292",
     "campgrounds": [
       {
         "name": "Chain Lakes",
@@ -3486,7 +3486,7 @@
       "open": "2026-05-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://www.albertaparks.ca/lakeland/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/lakeland-provincial-recreation-area/r/campgroundDetails.do?contractCode=ABPP&parkId=330345",
     "campgrounds": [
       {
         "name": "Seibert Lake",
@@ -3535,7 +3535,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://www.albertaparks.ca/castle/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/castle-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330291",
     "campgrounds": [
       {
         "name": "Beaver Mines Lake",
@@ -3584,7 +3584,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://www.albertaparks.ca/ram-falls/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/ram-falls-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330189",
     "campgrounds": [
       {
         "name": "Ram Falls",
@@ -3619,7 +3619,7 @@
       "open": "2026-05-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://www.albertaparks.ca/gregoire-lake/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/gregoire-lake-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=331750",
     "campgrounds": [
       {
         "name": "Gregoire Lake",
@@ -3659,7 +3659,7 @@
       "open": "2026-05-15",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://www.albertaparks.ca/sir-winston-churchill/",
+    "bookingUrl": "https://shop.albertaparks.ca/camping/sir-winston-churchill-provincial-park/r/campgroundDetails.do?contractCode=ABPP&parkId=330131",
     "campgrounds": [
       {
         "name": "Long Bay",
@@ -3699,7 +3699,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/SleepingGiant",
+    "bookingUrl": "https://www.ontarioparks.ca/park/sleepinggiant",
     "campgrounds": [
       {
         "name": "Marie Louise Lake",
@@ -3741,7 +3741,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/KawarthaHighlands",
+    "bookingUrl": "https://www.ontarioparks.ca/park/kawarthahighlands",
     "campgrounds": [
       {
         "name": "Interior Sites",
@@ -3776,7 +3776,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/SilentLake",
+    "bookingUrl": "https://www.ontarioparks.ca/park/silentlake",
     "campgrounds": [
       {
         "name": "Pincer Bay",
@@ -3817,7 +3817,7 @@
       "open": "2026-05-01",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/FrenchRiver",
+    "bookingUrl": "https://www.ontarioparks.ca/park/frenchriver",
     "campgrounds": [
       {
         "name": "Hartley Bay",
@@ -3854,7 +3854,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Massasauga",
+    "bookingUrl": "https://www.ontarioparks.ca/park/themassasauga",
     "campgrounds": [
       {
         "name": "Interior Sites",
@@ -3889,7 +3889,7 @@
       "open": "2026-05-01",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/CharlestonLake",
+    "bookingUrl": "https://www.ontarioparks.ca/park/charlestonlake",
     "campgrounds": [
       {
         "name": "Charleston Lake",
@@ -3932,7 +3932,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Rondeau",
+    "bookingUrl": "https://www.ontarioparks.ca/park/rondeau",
     "campgrounds": [
       {
         "name": "South Point",
@@ -3974,7 +3974,7 @@
       "open": "2026-04-15",
       "close": "2026-10-31"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Presquile",
+    "bookingUrl": "https://www.ontarioparks.ca/park/presquile",
     "campgrounds": [
       {
         "name": "Presqu'ile Campground",
@@ -4015,7 +4015,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Restoule",
+    "bookingUrl": "https://www.ontarioparks.ca/park/restoule",
     "campgrounds": [
       {
         "name": "Restoule Campground",
@@ -4057,7 +4057,7 @@
       "open": "2026-06-01",
       "close": "2026-09-30"
     },
-    "bookingUrl": "https://reservations.ontarioparks.ca/Neys",
+    "bookingUrl": "https://www.ontarioparks.ca/park/neys",
     "campgrounds": [
       {
         "name": "Neys Campground",
@@ -4097,7 +4097,7 @@
       "open": "2026-05-15",
       "close": "2026-10-15"
     },
-    "bookingUrl": "https://reservation.pc.gc.ca/FathomFive",
+    "bookingUrl": "https://parks.canada.ca/amnc-nmca/on/fathomfive/activ/camping",
     "campgrounds": [
       {
         "name": "Flowerpot Island",
