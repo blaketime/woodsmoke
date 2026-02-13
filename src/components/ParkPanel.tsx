@@ -165,23 +165,23 @@ export default function ParkPanel({ park, onClose, distance }: ParkPanelProps) {
         {/* Campgrounds */}
         {park.campgrounds.length > 0 && (
           <div>
-            <h3 className="font-display text-base text-charcoal mb-3 flex items-center gap-2">
+            <h3 className="font-display text-base text-charcoal dark:text-cream mb-3 flex items-center gap-2">
               <Tent className="w-4 h-4 text-sage" />
               Campgrounds
-              <span className="text-xs font-body text-charcoal-light">({totalSites} total sites)</span>
+              <span className="text-xs font-body text-charcoal-light dark:text-dark-text-secondary">({totalSites} total sites)</span>
             </h3>
             <div className="space-y-3">
               {park.campgrounds.map((cg) => (
-                <div key={cg.name} className="bg-white/60 rounded-xl p-3 space-y-2">
+                <div key={cg.name} className="bg-white/60 dark:bg-dark-surface/60 rounded-xl p-3 space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="font-medium text-sm text-charcoal">{cg.name}</span>
-                    <span className="text-xs text-charcoal-light">{cg.sites} sites</span>
+                    <span className="font-medium text-sm text-charcoal dark:text-cream">{cg.name}</span>
+                    <span className="text-xs text-charcoal-light dark:text-dark-text-secondary">{cg.sites} sites</span>
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {cg.amenities.map((amenity) => (
                       <span
                         key={amenity}
-                        className="px-2 py-0.5 rounded-full bg-sage/10 text-sage-dark text-[11px] font-medium"
+                        className="px-2 py-0.5 rounded-full bg-sage/10 dark:bg-sage/20 text-sage-dark dark:text-sage-light text-[11px] font-medium"
                       >
                         {AMENITY_LABELS[amenity]}
                       </span>
@@ -208,7 +208,7 @@ export default function ParkPanel({ park, onClose, distance }: ParkPanelProps) {
             href={park.bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-2.5 bg-white border border-cream-dark text-charcoal rounded-xl font-medium text-sm hover:bg-cream-dark transition-colors"
+            className="flex items-center justify-center gap-2 px-4 py-2.5 bg-white dark:bg-dark-surface border border-cream-dark dark:border-dark-border text-charcoal dark:text-cream rounded-xl font-medium text-sm hover:bg-cream-dark dark:hover:bg-dark-border transition-colors"
           >
             <ExternalLink className="w-4 h-4" />
             Book

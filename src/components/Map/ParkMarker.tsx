@@ -24,7 +24,7 @@ export default function ParkMarker({ park, onClick, isSelected, distance }: Park
       }}
     >
       <button
-        className={`group flex flex-col items-center transition-transform duration-200 ${
+        className={`group flex flex-col items-center cursor-pointer transition-transform duration-200 ${
           isSelected ? 'scale-125 z-10' : 'hover:scale-110'
         }`}
       >

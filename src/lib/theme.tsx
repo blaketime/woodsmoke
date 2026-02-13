@@ -11,7 +11,7 @@ interface ThemeContextValue {
 }
 
 const STORAGE_KEY = 'woodsmoke:theme'
-const CYCLE_ORDER: ThemeMode[] = ['system', 'light', 'dark']
+const CYCLE_ORDER: EffectiveTheme[] = ['light', 'dark']
 
 const ThemeContext = createContext<ThemeContextValue | null>(null)
 
@@ -38,8 +38,10 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   }
 
   const cycleMode = () => {
-    const idx = CYCLE_ORDER.indexOf(mode)
-    setMode(CYCLE_ORDER[(idx + 1) % CYCLE_ORDER.length])
+    // On first toggle, resolve system → explicit. After that, flip light ↔ dark.
+    const current = resolveEffective(mode)
+    const next = current === 'light' ? 'dark' : 'light'
+    setMode(next)
   }
 
   useEffect(() => {

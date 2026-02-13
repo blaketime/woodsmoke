@@ -124,7 +124,7 @@ export default function ParkDetail() {
               <ArrowLeft className="w-5 h-5" />
             </Link>
             <span className="font-display text-lg text-charcoal dark:text-cream">Woodsmoke</span>
-            <div className="ml-auto bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
+            <div className="ml-auto">
               <ThemeToggle />
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function ParkDetail() {
             <ArrowLeft className="w-5 h-5" />
           </Link>
           <span className="font-display text-lg text-charcoal dark:text-cream">Woodsmoke</span>
-          <div className="ml-auto bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
+          <div className="ml-auto">
             <ThemeToggle />
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function ParkDetail() {
                 {park.activities.map((activity) => (
                   <span
                     key={activity}
-                    className="px-3 py-1.5 rounded-full bg-sage/10 dark:bg-sage/20 text-sage-dark text-sm font-medium"
+                    className="px-3 py-1.5 rounded-full bg-sage/10 dark:bg-sage/20 text-sage-dark dark:text-sage-light text-sm font-medium"
                   >
                     {ACTIVITY_LABELS[activity]}
                   </span>
@@ -312,7 +312,7 @@ export default function ParkDetail() {
                           onClick={() => setSelectedCampground(i)}
                           className={`flex-1 py-2 px-3 rounded-lg text-xs font-medium transition-all truncate cursor-pointer ${
                             i === selectedCampground
-                              ? 'bg-white dark:bg-dark-surface text-charcoal dark:text-cream shadow-sm'
+                              ? 'bg-white dark:bg-dark-border text-charcoal dark:text-cream shadow-sm'
                               : 'text-charcoal-light dark:text-dark-text-secondary hover:text-charcoal dark:hover:text-cream hover:bg-black/5 dark:hover:bg-white/5'
                           }`}
                         >
@@ -350,7 +350,7 @@ export default function ParkDetail() {
                         {cg.amenities.map((amenity) => (
                           <span
                             key={amenity}
-                            className="px-2 py-0.5 rounded-full bg-sage/10 text-sage-dark text-[10px] font-medium"
+                            className="px-2 py-0.5 rounded-full bg-sage/10 dark:bg-sage/20 text-sage-dark dark:text-sage-light text-[10px] font-medium"
                           >
                             {AMENITY_LABELS[amenity]}
                           </span>

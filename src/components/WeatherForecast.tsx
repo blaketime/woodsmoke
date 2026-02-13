@@ -67,7 +67,7 @@ export default function WeatherForecast({ forecast, isLoading, error, compact }:
 
   if (error) {
     return (
-      <div className="bg-rust/10 border border-rust/20 rounded-xl px-4 py-3 text-sm text-rust-dark">
+      <div className="bg-rust/10 border border-rust/20 rounded-xl px-4 py-3 text-sm text-rust-dark dark:text-rust-light">
         {error}
       </div>
     )
@@ -83,7 +83,7 @@ export default function WeatherForecast({ forecast, isLoading, error, compact }:
         const isHistorical = day.dataSource === 'historical'
         const cardBg = isHistorical
           ? 'bg-brown/5 border border-brown/20'
-          : 'bg-white/60 dark:bg-dark-surface/60'
+          : 'bg-white/60 dark:bg-dark-surface/60 dark:border dark:border-dark-border/50'
 
         return (
           <div
@@ -101,7 +101,7 @@ export default function WeatherForecast({ forecast, isLoading, error, compact }:
               {day.tempMax}° <span className="text-charcoal-light dark:text-dark-text-secondary font-normal">/ {day.tempMin}°</span>
             </div>
             {day.precipProbability > 0 && (
-              <div className="flex items-center gap-1 text-[11px] text-sage-dark">
+              <div className="flex items-center gap-1 text-[11px] text-sage-dark dark:text-sage-light">
                 <Droplets className="w-3 h-3" />
                 {day.precipProbability}%
               </div>
