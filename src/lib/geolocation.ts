@@ -5,31 +5,6 @@ export interface UserLocation {
 }
 
 export async function getUserLocation(): Promise<UserLocation | null> {
-  // 1. Try the browser Geolocation API (accurate, requires permission)
-  const browserLoc = await getBrowserLocation()
-  if (browserLoc) return browserLoc
-
-  // 2. Fall back to IP-based geolocation over HTTPS
-  return getIpLocation()
-}
-
-function getBrowserLocation(): Promise<UserLocation | null> {
-  return new Promise((resolve) => {
-    if (!navigator.geolocation) return resolve(null)
-
-    navigator.geolocation.getCurrentPosition(
-      (pos) =>
-        resolve({
-          lat: pos.coords.latitude,
-          lng: pos.coords.longitude,
-        }),
-      () => resolve(null),
-      { timeout: 5000, maximumAge: 300_000 }
-    )
-  })
-}
-
-async function getIpLocation(): Promise<UserLocation | null> {
   try {
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), 3000)
