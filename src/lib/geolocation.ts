@@ -5,11 +5,36 @@ export interface UserLocation {
 }
 
 export async function getUserLocation(): Promise<UserLocation | null> {
+  // 1. Try the browser Geolocation API (accurate, requires permission)
+  const browserLoc = await getBrowserLocation()
+  if (browserLoc) return browserLoc
+
+  // 2. Fall back to IP-based geolocation over HTTPS
+  return getIpLocation()
+}
+
+function getBrowserLocation(): Promise<UserLocation | null> {
+  return new Promise((resolve) => {
+    if (!navigator.geolocation) return resolve(null)
+
+    navigator.geolocation.getCurrentPosition(
+      (pos) =>
+        resolve({
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+        }),
+      () => resolve(null),
+      { timeout: 5000, maximumAge: 300_000 }
+    )
+  })
+}
+
+async function getIpLocation(): Promise<UserLocation | null> {
   try {
     const controller = new AbortController()
-    const timeout = setTimeout(() => controller.abort(), 2000)
+    const timeout = setTimeout(() => controller.abort(), 3000)
 
-    const res = await fetch('http://ip-api.com/json/?fields=lat,lon,city', {
+    const res = await fetch('https://ipwho.is/', {
       signal: controller.signal,
     })
     clearTimeout(timeout)
@@ -17,11 +42,12 @@ export async function getUserLocation(): Promise<UserLocation | null> {
     if (!res.ok) return null
 
     const data = await res.json()
-    if (typeof data.lat !== 'number' || typeof data.lon !== 'number') return null
+    if (!data.success || typeof data.latitude !== 'number' || typeof data.longitude !== 'number')
+      return null
 
     return {
-      lat: data.lat,
-      lng: data.lon,
+      lat: data.latitude,
+      lng: data.longitude,
       city: data.city || undefined,
     }
   } catch {
