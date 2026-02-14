@@ -11,7 +11,6 @@ interface ThemeContextValue {
 }
 
 const STORAGE_KEY = 'woodsmoke:theme'
-const CYCLE_ORDER: EffectiveTheme[] = ['light', 'dark']
 
 const ThemeContext = createContext<ThemeContextValue | null>(null)
 
