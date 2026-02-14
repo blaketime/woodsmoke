@@ -9,7 +9,7 @@ export async function getUserLocation(): Promise<UserLocation | null> {
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), 3000)
 
-    const res = await fetch('https://ipwho.is/', {
+    const res = await fetch('https://get.geojs.io/v1/ip/geo.json', {
       signal: controller.signal,
     })
     clearTimeout(timeout)
@@ -17,12 +17,13 @@ export async function getUserLocation(): Promise<UserLocation | null> {
     if (!res.ok) return null
 
     const data = await res.json()
-    if (!data.success || typeof data.latitude !== 'number' || typeof data.longitude !== 'number')
-      return null
+    const lat = parseFloat(data.latitude)
+    const lng = parseFloat(data.longitude)
+    if (isNaN(lat) || isNaN(lng)) return null
 
     return {
-      lat: data.latitude,
-      lng: data.longitude,
+      lat,
+      lng,
       city: data.city || undefined,
     }
   } catch {
