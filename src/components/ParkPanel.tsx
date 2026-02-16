@@ -196,10 +196,7 @@ export default function ParkPanel({ park, onClose, distance }: ParkPanelProps) {
         {/* Actions */}
         <div className="flex gap-3 pt-2">
           <button
-            onClick={() => {
-              sessionStorage.setItem('woodsmoke:lastParkId', park.id)
-              navigate(`/park/${park.id}`)
-            }}
+            onClick={() => navigate(`/park/${park.id}`)}
             className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-rust text-white rounded-xl font-medium text-sm hover:bg-rust-dark transition-colors"
           >
             View Details

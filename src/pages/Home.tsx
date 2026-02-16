@@ -1,4 +1,5 @@
-import { useState, useMemo, useEffect, useRef } from 'react'
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { Search, SlidersHorizontal, X, MapPin } from 'lucide-react'
 import ParkMap from '../components/Map/ParkMap'
 import ParkPanel from '../components/ParkPanel'
@@ -11,12 +12,25 @@ import { getUserLocation, getDistance, type UserLocation } from '../lib/geolocat
 const typedParks = parks as Park[]
 
 export default function Home() {
+  const [searchParams, setSearchParams] = useSearchParams()
   const [searchQuery, setSearchQuery] = useState('')
-  const [selectedPark, setSelectedPark] = useState<Park | null>(() => {
-    const savedId = sessionStorage.getItem('woodsmoke:lastParkId')
-    if (savedId) return typedParks.find((p) => p.id === savedId) ?? null
-    return null
-  })
+
+  const selectedPark = useMemo(() => {
+    const parkId = searchParams.get('park')
+    if (!parkId) return null
+    return typedParks.find((p) => p.id === parkId) ?? null
+  }, [searchParams])
+
+  const setSelectedPark = useCallback((park: Park | null) => {
+    setSearchParams(prev => {
+      if (park) {
+        prev.set('park', park.id)
+      } else {
+        prev.delete('park')
+      }
+      return prev
+    }, { replace: true })
+  }, [setSearchParams])
   const [parkType, setParkType] = useState<'all' | 'national' | 'provincial'>('all')
   const [province, setProvince] = useState<Province | 'all'>('all')
   const [requiredAmenities, setRequiredAmenities] = useState<Amenity[]>([])
@@ -242,10 +256,7 @@ export default function Home() {
           parks={filteredParks}
           selectedPark={selectedPark}
           onSelectPark={setSelectedPark}
-          onDeselectPark={() => {
-            setSelectedPark(null)
-            sessionStorage.removeItem('woodsmoke:lastParkId')
-          }}
+          onDeselectPark={() => setSelectedPark(null)}
           userLocation={userLocation}
           distanceLookup={distanceLookup}
           onMapLoad={() => setMapLoaded(true)}
@@ -256,10 +267,7 @@ export default function Home() {
       {selectedPark && (
         <ParkPanel
           park={selectedPark}
-          onClose={() => {
-            setSelectedPark(null)
-            sessionStorage.removeItem('woodsmoke:lastParkId')
-          }}
+          onClose={() => setSelectedPark(null)}
           distance={distanceLookup[selectedPark.id]}
         />
       )}
