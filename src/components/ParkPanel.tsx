@@ -119,17 +119,17 @@ export default function ParkPanel({ park, onClose, distance }: ParkPanelProps) {
 
       <div className="p-4 space-y-5">
         {/* Location & Season */}
-        <div className="flex items-center gap-4 text-sm text-charcoal-light dark:text-dark-text-secondary">
-          <span className="flex items-center gap-1">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-charcoal-light dark:text-dark-text-secondary">
+          <span className="flex items-center gap-1 whitespace-nowrap">
             <MapPin className="w-4 h-4" />
             {park.province}
           </span>
           {distance !== undefined && (
-            <span className="flex items-center gap-1 text-rust">
+            <span className="flex items-center gap-1 whitespace-nowrap text-rust">
               {formatDistance(distance)} away
             </span>
           )}
-          <span className="flex items-center gap-1">
+          <span className="flex items-center gap-1 whitespace-nowrap">
             <Calendar className="w-4 h-4" />
             {formatSeason(park.season.open)} – {formatSeason(park.season.close)}
           </span>
