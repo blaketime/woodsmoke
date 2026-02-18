@@ -68,14 +68,9 @@ export default function ParkPanel({ park, onClose, distance }: ParkPanelProps) {
 
   return (
     <div className="absolute z-20 bg-cream/95 dark:bg-dark-bg/95 backdrop-blur-md shadow-2xl overflow-y-auto bottom-0 left-0 right-0 max-h-[60vh] rounded-t-2xl border-t border-cream-dark dark:border-dark-border animate-slide-up sm:top-0 sm:right-0 sm:left-auto sm:bottom-0 sm:max-h-none sm:w-full sm:max-w-sm sm:rounded-t-none sm:border-t-0 sm:border-l sm:animate-slide-in">
-      {/* Mobile drag handle */}
-      <div className="flex justify-center pt-2 pb-1 sm:hidden">
-        <div className="w-10 h-1 rounded-full bg-charcoal/20 dark:bg-cream/20" />
-      </div>
-
-      {/* Hero thumbnail */}
-      {park.imageUrl && (
-        <div className="h-32 overflow-hidden relative">
+      {/* Hero image with overlaid drag handle (mobile) */}
+      {park.imageUrl ? (
+        <div className="h-36 sm:h-32 overflow-hidden relative">
           {!imageLoaded && <Skeleton className="absolute inset-0 rounded-none" />}
           <img
             ref={imgRef}
@@ -84,6 +79,15 @@ export default function ParkPanel({ park, onClose, distance }: ParkPanelProps) {
             className={`w-full h-full object-cover transition-opacity duration-300 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
             onLoad={() => setImageLoaded(true)}
           />
+          {/* Mobile drag handle — overlaid on image */}
+          <div className="absolute top-0 left-0 right-0 flex justify-center pt-2 pb-1 sm:hidden">
+            <div className="w-10 h-1 rounded-full bg-white/50" />
+          </div>
+        </div>
+      ) : (
+        /* Fallback drag handle when no image */
+        <div className="flex justify-center pt-2 pb-1 sm:hidden">
+          <div className="w-10 h-1 rounded-full bg-charcoal/20 dark:bg-cream/20" />
         </div>
       )}
 

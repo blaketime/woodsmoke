@@ -102,11 +102,14 @@ export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectP
       initialParkRef.current = null
       return
     }
+    const isMobile = window.innerWidth < 640
     mapRef.current.flyTo({
       center: [selectedPark.lng, selectedPark.lat],
       zoom: 10,
       duration: 1200,
-      padding: { top: 50, bottom: 50, left: 50, right: 380 },
+      padding: isMobile
+        ? { top: 50, bottom: Math.round(window.innerHeight * 0.6), left: 50, right: 50 }
+        : { top: 50, bottom: 50, left: 50, right: 380 },
     })
   }, [selectedPark])
 

@@ -154,7 +154,7 @@ export default function Home() {
             {/* Collapsible filters — pills expand inline to the left of the icon */}
             <div className="flex items-center bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
               <div
-                className={`transition-[max-width,opacity,height] duration-300 ease-in-out ${
+                className={`hidden sm:block transition-[max-width,opacity,height] duration-300 ease-in-out ${
                   filtersOpen ? 'max-w-[800px] opacity-100 h-9' : 'max-w-0 h-0 opacity-0'
                 } ${filtersExpanded ? 'overflow-visible' : 'overflow-hidden'}`}
               >
@@ -221,7 +221,7 @@ export default function Home() {
 
               {/* Search results dropdown */}
               {searchOpen && searchResults.length > 0 && (
-                <div className="absolute top-full right-0 mt-2 w-72 bg-white/95 dark:bg-dark-surface/95 backdrop-blur-sm rounded-xl shadow-lg border border-cream-dark/30 dark:border-dark-border/30 py-1 max-h-80 overflow-y-auto z-50">
+                <div className="absolute top-full right-0 mt-2 w-72 max-w-[calc(100vw-2rem)] bg-white/95 dark:bg-dark-surface/95 backdrop-blur-sm rounded-xl shadow-lg border border-cream-dark/30 dark:border-dark-border/30 py-1 max-h-80 overflow-y-auto z-50">
                   {searchResults.map((park) => (
                     <button
                       key={park.id}
@@ -248,6 +248,26 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Mobile filter row — below header icons */}
+        {filtersOpen && (
+          <div className="sm:hidden mt-3 pointer-events-auto">
+            <div className="bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm px-3 py-2 flex items-center gap-2 overflow-x-auto">
+              <FilterBar
+                parkType={parkType}
+                onParkTypeChange={setParkType}
+                province={province}
+                onProvinceChange={setProvince}
+                requiredAmenities={requiredAmenities}
+                onRequiredAmenitiesChange={setRequiredAmenities}
+                onClearAll={clearAllFilters}
+                nearbyOnly={nearbyOnly}
+                onNearbyOnlyChange={setNearbyOnly}
+                hasUserLocation={userLocation !== null}
+              />
+            </div>
+          </div>
+        )}
       </header>
 
       {/* Map */}
