@@ -203,6 +203,11 @@ input[type="checkbox"] {
   accent-color: var(--color-sage-light);
 }
 
+/* Safe area padding for mobile bottom toolbar */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 /* Hide all scrollbars globally */
 * {
   -ms-overflow-style: none;

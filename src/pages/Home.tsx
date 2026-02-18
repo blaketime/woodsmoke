@@ -4,6 +4,7 @@ import { Search, SlidersHorizontal, X, MapPin } from 'lucide-react'
 import ParkMap from '../components/Map/ParkMap'
 import ParkPanel from '../components/ParkPanel'
 import FilterBar from '../components/FilterBar'
+import MobileToolbar from '../components/MobileToolbar'
 import ThemeToggle from '../components/ThemeToggle'
 import parks from '../data/parks.json'
 import type { Park, Province, Amenity } from '../lib/types'
@@ -41,6 +42,8 @@ export default function Home() {
   const [filtersExpanded, setFiltersExpanded] = useState(false)
   const [mapLoaded, setMapLoaded] = useState(false)
   const [loadingHidden, setLoadingHidden] = useState(false)
+  const [toolbarVisible, setToolbarVisible] = useState(true)
+  const [panelReady, setPanelReady] = useState(!!searchParams.get('park'))
   const searchInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -54,6 +57,36 @@ export default function Home() {
       return () => clearTimeout(timer)
     }
   }, [mapLoaded])
+
+  // Stagger animation: toolbar slides out → pause → panel slides in (mobile only)
+  const prevSelectedParkRef = useRef(selectedPark?.id ?? null)
+  useEffect(() => {
+    const isMobile = window.innerWidth < 640
+    const currentId = selectedPark?.id ?? null
+    const prevId = prevSelectedParkRef.current
+    prevSelectedParkRef.current = currentId
+
+    if (!isMobile) {
+      // Desktop: immediate, no stagger
+      setPanelReady(!!selectedPark)
+      setToolbarVisible(!selectedPark)
+      return
+    }
+
+    if (selectedPark && prevId !== currentId) {
+      // Park selected on mobile: hide toolbar → delay → show panel
+      setToolbarVisible(false)
+      const timer = setTimeout(() => setPanelReady(true), 500)
+      return () => clearTimeout(timer)
+    }
+
+    if (!selectedPark && prevId) {
+      // Park deselected on mobile: hide panel → delay → show toolbar
+      setPanelReady(false)
+      const timer = setTimeout(() => setToolbarVisible(true), 200)
+      return () => clearTimeout(timer)
+    }
+  }, [selectedPark])
 
   useEffect(() => {
     if (filtersOpen) {
@@ -78,6 +111,7 @@ export default function Home() {
 
   const selectParkFromSearch = (park: Park) => {
     setSelectedPark(park)
+    setSearchQuery('')
     closeSearch()
   }
 
@@ -151,8 +185,8 @@ export default function Home() {
             <div className="bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
               <ThemeToggle />
             </div>
-            {/* Collapsible filters — pills expand inline to the left of the icon */}
-            <div className="flex items-center bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
+            {/* Collapsible filters — pills expand inline to the left of the icon (desktop only) */}
+            <div className="hidden sm:flex items-center bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
               <div
                 className={`hidden sm:block transition-[max-width,opacity,height] duration-300 ease-in-out ${
                   filtersOpen ? 'max-w-[800px] opacity-100 h-9' : 'max-w-0 h-0 opacity-0'
@@ -192,8 +226,8 @@ export default function Home() {
               </button>
             </div>
 
-            {/* Collapsible search */}
-            <div className="relative">
+            {/* Collapsible search (desktop only) */}
+            <div className="hidden sm:block relative">
               <div className="flex items-center bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm">
                 <div
                   className={`overflow-hidden transition-all duration-300 ease-in-out ${
@@ -249,25 +283,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Mobile filter row — below header icons */}
-        {filtersOpen && (
-          <div className="sm:hidden mt-3 pointer-events-auto">
-            <div className="bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm px-3 py-2 flex items-center gap-2 overflow-x-auto">
-              <FilterBar
-                parkType={parkType}
-                onParkTypeChange={setParkType}
-                province={province}
-                onProvinceChange={setProvince}
-                requiredAmenities={requiredAmenities}
-                onRequiredAmenitiesChange={setRequiredAmenities}
-                onClearAll={clearAllFilters}
-                nearbyOnly={nearbyOnly}
-                onNearbyOnlyChange={setNearbyOnly}
-                hasUserLocation={userLocation !== null}
-              />
-            </div>
-          </div>
-        )}
       </header>
 
       {/* Map */}
@@ -283,8 +298,24 @@ export default function Home() {
         />
       </div>
 
+      {/* Mobile bottom toolbar */}
+      <MobileToolbar
+        visible={toolbarVisible}
+        searchQuery={searchQuery}
+        onSearchQueryChange={setSearchQuery}
+        searchResults={searchResults}
+        onSelectPark={selectParkFromSearch}
+        province={province}
+        onProvinceChange={setProvince}
+        requiredAmenities={requiredAmenities}
+        onRequiredAmenitiesChange={setRequiredAmenities}
+        nearbyOnly={nearbyOnly}
+        onNearbyOnlyChange={setNearbyOnly}
+        hasUserLocation={userLocation !== null}
+      />
+
       {/* Park Panel */}
-      {selectedPark && (
+      {selectedPark && panelReady && (
         <ParkPanel
           park={selectedPark}
           onClose={() => setSelectedPark(null)}

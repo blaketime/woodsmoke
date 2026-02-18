@@ -11,11 +11,20 @@ import ClusterMarker from './ClusterMarker'
 import UserLocationMarker from './UserLocationMarker'
 import type { UserLocation } from '../../lib/geolocation'
 
+const IS_MOBILE = window.matchMedia('(max-width: 639px)').matches
+
 const INITIAL_VIEW = {
   longitude: -96.5,
-  latitude: 56.0,
+  latitude: IS_MOBILE ? 58.0 : 56.0,
   zoom: 3.5,
 }
+
+// On mobile portrait the southern parks sit behind the toolbar,
+// so we extend the southern bound to let users pan parks upward.
+const MAX_BOUNDS: [[number, number], [number, number]] = [
+  [-145, IS_MOBILE ? 30 : 40],
+  [-50, 85],
+]
 
 interface ParkMapProps {
   parks: Park[]
@@ -137,15 +146,15 @@ export default function ParkMap({ parks, selectedPark, onSelectPark, onDeselectP
       onClick={handleMapClick}
       style={{ width: '100%', height: '100%' }}
       mapStyle={mapStyle}
-      maxBounds={[[-145, 40], [-50, 85]]}
+      maxBounds={MAX_BOUNDS}
     >
       {/* Custom scale — fixed, matches header controls */}
-      <div className="absolute bottom-4 left-4 z-10 bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm px-3 py-1.5">
+      <div className="hidden sm:block absolute bottom-4 left-4 z-10 bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm rounded-xl shadow-sm px-3 py-1.5">
         <span className="text-xs font-medium text-charcoal-light dark:text-dark-text-secondary">{scaleLabel}</span>
       </div>
 
       {/* Custom map controls — matches header button style */}
-      <div className="absolute bottom-12 right-4 flex flex-col items-center gap-2 z-10">
+      <div className="absolute bottom-12 right-4 hidden sm:flex flex-col items-center gap-2 z-10">
         <button
           type="button"
           onClick={() => mapRef.current?.getMap().zoomIn({ duration: 200 })}
