@@ -103,7 +103,7 @@ export default function MobileToolbar({
 }: MobileToolbarProps) {
   const [provinceOpen, setProvinceOpen] = useState(false)
   const [amenityOpen, setAmenityOpen] = useState(false)
-  const [searchFocused, setSearchFocused] = useState(false)
+  const [, setSearchFocused] = useState(false)
   const searchInputRef = useRef<HTMLInputElement>(null)
 
   const provinceTriggerRef = useRef<HTMLButtonElement>(null)
